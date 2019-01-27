@@ -6,6 +6,7 @@
   <title>Portfolio | Keyona Richey</title>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,600,600i,700,700i,800" rel="stylesheet">
+  <link rel="stylesheet" href="styles/reset.css">
   <link rel="stylesheet" href="styles/project.css">
 </head>
 <body>
@@ -67,50 +68,43 @@
       <section class="Process-header">
         <div class="intro-text"><h2>The Process</h2></div>
       </section>
-  <section class="competitive-analysis">
-      <section class="ca-header">
-        <h2>Competitive Analysis</h2>
-        <p>What will be the competitive advantage?</p>
-      </section>
-      <section class="ca-text">
-        <p><b>To begin my research I analyzed the features of three top companies in the the cloud storage space. I was specifically looking through the lenses of their strengths, weaknesses, opportunities, and threats.  These discoveries allowed me to develop assumptions on what users are missing in a cloud storage app that I could develop a solution for.</b></p>
-        <img src= assets/images/GoogleDrive.png>
-        <p> Google Drive gives users  the ability to upload items. However, in order to create an item,  a separate app needs to be accessed. This is especially problematic when using the app on a mobile device.</p>
-        <img src= assets/images/Pinterest.png>
-        <p>Pinterest has a distinct feature in allowing users to create moodboards which is unique and an aesthetically pleasing organization tool.  However, they are  limited in the file types they host, and they don’t have the ability for users to create their own content through the platform.</p>
-        <img src= assets/images/Dropbox.png>
-        <p>Dropbox has a simple and clean aesthetic, but it is also limited in the file types that can be created and uploaded within the platform. Additionally their platform contains buttons that aren’t clear in communicating what their function are. </p>
-  </section>
+      <section class="competitive-analysis">
+        <section class="ca-header">
+          <h2>Competitive Analysis</h2>
+          <p>What will be the competitive advantage?</p>
+        </section>
+        <section class="ca-text">
+          <p><b>To begin my research I analyzed the features of three top companies in the the cloud storage space. I was specifically looking through the lenses of their strengths, weaknesses, opportunities, and threats.  These discoveries allowed me to develop assumptions on what users are missing in a cloud storage app that I could develop a solution for.</b></p>
+          <img src= assets/images/GoogleDrive.png>
+          <p> Google Drive gives users  the ability to upload items. However, in order to create an item,  a separate app needs to be accessed. This is especially problematic when using the app on a mobile device.</p>
+          <img src= assets/images/Pinterest.png>
+          <p>Pinterest has a distinct feature in allowing users to create moodboards which is unique and an aesthetically pleasing organization tool.  However, they are  limited in the file types they host, and they don’t have the ability for users to create their own content through the platform.</p>
+          <img src= assets/images/Dropbox.png>
+          <p>Dropbox has a simple and clean aesthetic, but it is also limited in the file types that can be created and uploaded within the platform. Additionally their platform contains buttons that aren’t clear in communicating what their function are. </p>
+        </section>
         <section class="assumptions">
-        <p><b> From the competitor research I developed the following assumptions:</b></p>
-        <ul>
-          <li><p>Users want the ability to upload various file types within the same platform.</p></li>
-          <li><p>Users want to be able to create content in different file types, and organize them in folders or moodboards.</p></li>
-          <li><p>Users want to explore content uploaded by other users.</p></li>
-          <li><p>Users want to share and collaborate with others, and receive notifications if changes are made.</p></li>
-        </ul>
+          <p><b> From the competitor research I developed the following assumptions:</b></p>
+          <ul>
+            <li><p>Users want the ability to upload various file types within the same platform.</p></li>
+            <li><p>Users want to be able to create content in different file types, and organize them in folders or moodboards.</p></li>
+            <li><p>Users want to explore content uploaded by other users.</p></li>
+            <li><p>Users want to share and collaborate with others, and receive notifications if changes are made.</p></li>
+          </ul>
+        </section>
       </section>
-    </section>
-    <section class="Survey">
-      <section class="survey-title">
+      <section class="Survey">
+        <section class="survey-title">
           <h2>User Survey</h2>
           <p>What do users really want?</p>
         </section>
         <section class="survey-text">
           <p><b>Next, I distributed a user survey to airline workers, Facebook travel groups and some of my peers to test if my assumptions were credible. In addition, I used the survey to discover more details about what the right combination of features users think should  be in the solution. Beyond the traditional features of a cloud storage app, users wanted more distinct features that would be beneficial for their travel related needs.</b></p>
-          <p>Also, in regards to current applications users said they enjoyed these features  about current cloud storage:<p>
-            <ul>
-              <li>It’s easy to collaborate with others.</li>
-              <li>It’s easy to access the app on different devices.</li>
-              <li>Convenient to have all travel ideas in one place.</li>
-              <li>It helps them sort through their travel ideas.</li>
-            </ul>
-         <h3>Features Users Wanted</h3>
-         <section class="survey-images">
-          <img src= "assets/images/Percent1.png" alt="Infographic">
-          <img src= "assets/images/Percent2.png" alt="Infographic">
-          <img src= "assets/images/Percent3.png" alt="Infographic">
-        </section>
+          <h3>Features Users Want</h3>
+          <div class="survey-images">
+            <img src= "assets/images/Percent1.png" alt="Infographic">
+            <img src= "assets/images/Percent2.png" alt="Infographic">
+            <img src= "assets/images/Percent3.png" alt="Infographic">
+          </div>
           <ul>
             <li>A mood board feature in order to bring together different ideas when planning a trip.</li>
             <li>A combination of a  platform that allows them to discover travel content from others and also has tools to create documents or slideshows.</li>
@@ -118,36 +112,42 @@
             <li>To see inspirational and informational content shared by other users.</li>
             <li>Another feature users wanted to have in regards to collaboration was the ability to receive notifications if changes have been made to an item, and to  be able to share through social media, or emailing a link.</li>
           </ul>
-            <p>Within the survey results I was also able to identify the pain points users are experiencing when using current apps. Most respondents used competitors I had already analyzed, including Google Drive and Dropbox. Knowing this information allowed me insight into what may be the objective for the app. In this stage I believed the app should offer the best features of competitors in a single platform, offer a better organization method, and be visually fun.</p>
-          </section>
+          <h3>What Users Currently Enjoy About Competitors</h3>
+          <ul>
+            <li>It’s easy to collaborate with others.</li>
+            <li>It’s easy to access the app on different devices.</li>
+            <li>Convenient to have all travel ideas in one place.</li>
+            <li>It helps them sort through their travel ideas.</li>
+          </ul>
           <section class="pain-points">
+            <h3>User Pain Points</h3>
+            <p>Within the survey results I was also able to identify the pain points users are experiencing when using current apps. Most respondents used competitors I had already analyzed, including Google Drive and Dropbox. Knowing this information allowed me insight into what may be the objective for the app. In this stage I believed the app should offer the best features of competitors in a single platform, offer a better organization method, and be visually fun.</p>
             <ul>
-              <li>A mood board feature in order to bring together different ideas when planning a trip.</li>
-              <li>A combination of a  platform that allows them to discover travel content from others and also has tools to create documents or slideshows.</li>
-              <li>The ability to share recommendations they save or discover with others.</li>
-              <li>To see inspirational and informational content shared by other users.</li>
-              <li>Another feature users wanted to have in regards to collaboration was the ability to receive notifications if changes have been made to an item, and to  be able to share through social media, or emailing a link.</li>
+              <li>Too many different applications are needed.</li>
+              <li>Difficult to keep content organized.</li>
+              <li>Limited visually appealing templates  to create content.</li>
             </ul>
           </section>
-          <button type="Submit" class="survey-button" onclick="location.href='https://drive.google.com/drive/folders/1dEkhEf5JaIK_GMUmCDLJ9JMZpNiF1qth?usp=sharing'"><b>VIEW USER SURVEY</b></button>
+        </section>
+        <button type="Submit" class="survey-button" onclick="location.href='https://goo.gl/forms/PQIKMPFgL4SOhgax1'"><b>VIEW USER SURVEY</b></button>
       </section>
-        <section class="User-Personas">
-          <section class="persona-title">
-           <h2>User Personas</h2>
-           <p>Who is the target audience</p>
-         </section>
-           <section class="persona-text">
-             <p><b>Using results from the  survey  I developed user personas. By looking for patterns, trends, and outliers in the data I created  personas that showcased the  shared  goals, motivations, and frustrations of users. These personas further allowed me to see through an empathic lens as development continued.</b></p>
-             <p>This was a crucial step to define who the users are, the use cases, and why users would use this product. The shared goals below would become the staple features of the application.</p>
-             <ul>
-               <li>To upload and save content for future use in order to reference in the future and share with others.</li>
-               <li>To plan traveling goals by viewing other users content in order to optimize their travel experiences, and being able to organize.</li>
-               <li>To collaborate with others in real time  for easier communication regarding travel plans.</li>
-             </ul>
-           </section>
+      <section class="User-Personas">
+        <section class="persona-title">
+          <h2>User Personas</h2>
+          <p>Who is the target audience</p>
+        </section>
+        <section class="persona-text">
+          <p><b>Using results from the  survey  I developed user personas. By looking for patterns, trends, and outliers in the data I created  personas that showcased the  shared  goals, motivations, and frustrations of users. These personas further allowed me to see through an empathic lens as development continued.</b></p>
+          <p>This was a crucial step to define who the users are, the use cases, and why users would use this product. The shared goals below would become the staple features of the application.</p>
+          <ul>
+            <li>To upload and save content for future use in order to reference in the future and share with others.</li>
+            <li>To plan traveling goals by viewing other users content in order to optimize their travel experiences, and being able to organize.</li>
+            <li>To collaborate with others in real time  for easier communication regarding travel plans.</li>
+          </ul>
+        </section>
         <section class="Persona-Examples">
           <section class="Sage-Persona">
-              <img src= "assets/images/Sage-Persona.png" alt="Sage Image">
+            <img src= "assets/images/Sage-Persona.png" alt="Sage Image">
             <h2>Sage</h2>
             <h3>The Enthusiast</h3>
             <div class="Age">
@@ -172,7 +172,7 @@
             </div>
           </section>
           <section class="Jesse-Persona">
-              <img src= "assets/images/Jesse-Persona.png" alt="Jesse Image">
+            <img src= "assets/images/Jesse-Persona.png" alt="Jesse Image">
             <h2>Jesse</h2>
             <h3>The Industry Professional</h3>
             <div class="Age">
@@ -196,166 +196,167 @@
               <p class="quote"><b>"It's important that the app make it easy for me to share content with a group so everyone can provide input, see updates, and share photos with each other"</b></p>
             </div>
           </section>
+        </section>
+        <button type="Submit" class="persona-button" onclick="location.href='https://drive.google.com/drive/folders/1dEkhEf5JaIK_GMUmCDLJ9JMZpNiF1qth?usp=sharing'"><b>VIEW USER PERSONAS</b></button>
+      </section>
+      <section class="User-Stories">
+        <section class="us-header">
+          <h2>User Stories</h2>
+          <p>What is the scope of the MVP?</p>
+        </section>
+        <section class= "Stories-text">
+          <p><b>In step with the user focused design process, I looked back to the results of the user research to develop user stories. This step helped me  get specific about the actions  users would be taking, and what type of content they would be handling. Additionally, in order to keep the user’s perspective in consideration I put myself in the shoes of the user personas.</b></p>
+          <p> Doing this I was able to further refine, clarify, and prioritize  these actions to define the scope of work.  High and some medium priority user stories would be  included in the minimum viable product, and while the remainder  could be added in later phases. </p>
+        </section>
+        <img src= "assets/images/User-Stories.png" alt="User Stories">
+        <button type="Submit" class="stories" onclick="location.href='https://docs.google.com/spreadsheets/d/1NRqPoU3P3bzd9mTsaZ47IaLcORp7ywD6e6066Jw_HsA/edit?usp=sharing'"><b>VIEW USER STORIES</b></button>
+      </section>
+      <section class="User-Flows">
+        <section class="flow-header">
+          <h2>User Flows</h2>
+          <p>How will a user navigate the app?</p>
+        </section>
+        <section class="uf-text">
+          <p> <b>Next I created user flows that would serve as a blueprint for my wireframes. This step influenced my design in that I was able to see how I could incorporate conventional trends, such as a social media friendly onboarding process. As well as where I could improve or add something different that made more sense for my target audience. For example, giving users the option to organize their content into a folder or a board. </b> </p>
+        </section>
+        <section class= "uf-label">
+          <p><b>Sitemap</b></p>
+          <img src= "assets/images/Sitemap.png" alt="Sitemap">
+        </section>
+        <button type="Submit" class="flows" onclick="location.href='https://drive.google.com/drive/folders/1KDcF420u0d0ivCeq6EsFW9njYfmJ862d?usp=sharing'"><b>VIEW USER FLOWS</b></button>
+      </section>
+      <section class="Wireframes">
+        <section class="Wireframe-header">
+          <h2>Wireframes</h2>
+          <p>How will a user navigate the app?</p>
+        </section>
+        <section class="text-w">
+          <p><b> Since my target audience is always on the go, it was important they wouldn’t have to spend extra time trying to decipher the app.  So to ensure it was simple and easy to maneuver I fleshed out ideas by sketching. With my information architecture and competitor research in hand I rapidly iterated layouts to determine which best aligned with my design goals.</b> </p>
+        </section>
+        <section class="ref-text">
+          <p>Moving from research to the development phase<br> I had the following objectives in mind:</br></p>
+          <ul>
+            <li><p>Design an intuitive dashboard where users can quickly upload, create, explore and share.</p></li>
+            <li><p>Implement an organizational design that includes boards and folders.</p></li>
+            <li><p>Provide an easy and quick onboarding experience with the option to sign up with social media.</p></li>
+            <li><p>Start off with MVP showcasing the high priority features and some medium priority features.</p></li>
+          </ul>
+        </section>
+        <section class="w-images">
+          <div class="Image1"><img src= "assets/images/Sketch1.png" alt="Sketch"></div>
+          <div class="Image2"><img src= "assets/images/Sketch2.png" alt="Sketch"></div>
+          <div class="Image3"><img src= "assets/images/Sketch3.png" alt="Sketch"></div>
+        </section>
+        <section class="Low-fidelity">
+          <p>After deciding which layout would be the best solution I made a digital iteration of low-fidelity wireframes. </p>
+          <img src= "assets/images/Wireframe1.png" alt="Wireframe">
+          <img src= "assets/images/Wireframe2.png" alt="Wireframe">
+        </section>
+      </section>
+      <section class="Usability">
+        <section class="usability-title">
+          <h2> Usability Testing </h2>
+          <p>How are users interacting with the design?</p>
+        </section>
+        <div class="Image1"><img src= "assets/images/usability-image.png" alt="user-images"></div>
+        <section class="usability-text">
+          <p><b>Using the digital wireframes I created a clickable prototype. I then conducted the first round of usability testing.  I asked users to complete specific tasks which included, signing up, uploading an item, and organizing a folder.</b></p>
+          <p>Here are some of the key findings:</p>
+          <ul>
+            <li>Participants  easily recognized this app is travel related and what  features they would be able to use with the app.</li>
+            <li>The sign up task was the easiest and quickest for both participants to complete. </li>
+            <li>Participants were unsure if the item had actually uploaded. Therefore I will be adding a screen that displays an upload confirmation notice. </li>
+            <li> One particpant was confused during the organization task. As the function only allowed them to send files to other folders. They wanted to be able organize files within the folder and didn’t understand why they couldn’t. </li>
+          </ul>
+          <p>This testing proved to be very informative. Problem areas were brought to the forefront. As I was able to see parts of the upload and organize flows I had missed.</p>
+          <p>Moving forward I knew I needed to revise the prototype to include success complete notifications within the flows for uploading, creating, and organizing items. Implementing this would increase the clear communication I was aiming to create with the user. To solve the second problem I would re-design the organize flow to include an option to organize within the current folder.</p>
+        </section>
+      </section>
+      <section class="Visual">
+        <section class="visual-title">
+          <h2>Visual Identity</h2>
+          <p>What are the brand's values?</p>
+        </section>
+        <section class="visual-text">
+          <div>
+            <p><b>I then focused on creating a brand identity for the application. I started to determine what the brand’s values would be by creating a moodboard and word list. The core values chosen were joy and playfulness of traveling. The name is meant to describe the users as they use the service. It’s so simple and helpful they can’t help but be happy on their travels. </b></p>
+            <p>It was challenging creating a logo that would convey these values without making it too cartoon like. I eventually landed the perfect combination that utilized negative space to create  a smile and a  hot air balloon icon.</p>
+            <div class="Image1"><img src= "assets/images/Logo.png" alt="Logos"></div>
+            <p>For the color palette yellow and blue were chosen to convey warmth and security. Elements like buttons, icons, and fonts were given rounded corners to avoid any harshness. During content strategy development a  focus was put  upon gathering images that were traveled related but showcased the same feeling of joy.</p>
+            <div class="Image2"><img src= "assets/images/colors.png" alt="Color-Palette"></div>
+            <p>For typography it was important to choose a font that felt more soft and rounded. It was also important that the fonts have a simple modern feel and be easy to read.</p>
+            <div class="Image3"><img src= "assets/images/Typography.png" alt="Typography"></div>
           </section>
-             <button type="Submit" class="persona-button" onclick="location.href='https://drive.google.com/drive/folders/1dEkhEf5JaIK_GMUmCDLJ9JMZpNiF1qth?usp=sharing'"><b>VIEW USER PERSONAS</b></button>
-         </section>
-         <section class="User-Stories">
-           <section class="us-header">
-           <h2>User Stories</h2>
-           <p>What is the scope of the MVP?</p>
-         </section>
-           <section class= "Stories-text">
-             <p><b>In step with the user focused design process, I looked back to the results of the user research to develop user stories. This step helped me  get specific about the actions  users would be taking, and what type of content they would be handling. Additionally, in order to keep the user’s perspective in consideration I put myself in the shoes of the user personas.</b></p>
-             <p> Doing this I was able to further refine, clarify, and prioritize  these actions to define the scope of work.  High and some medium priority user stories would be  included in the minimum viable product, and while the remainder  could be added in later phases. </p>
-           </section>
-            <img src= "assets/images/User-Stories.png" alt="User Stories">
-         <button type="Submit" class="stories" onclick="location.href='https://docs.google.com/spreadsheets/d/1NRqPoU3P3bzd9mTsaZ47IaLcORp7ywD6e6066Jw_HsA/edit?usp=sharing'"><b>VIEW USER STORIES</b></button>
-         </section>
-         <section class="User-Flows">
-           <section class="flow-header">
-           <h2>User Flows</h2>
-           <p>How will a user navigate the app?</p>
-         </section>
-         <section class="uf-text">
-           <p> <b>Next I created user flows that would serve as a blueprint for my wireframes. This step influenced my design in that I was able to see how I could incorporate conventional trends, such as a social media friendly onboarding process. As well as where I could improve or add something different that made more sense for my target audience. For example, giving users the option to organize their content into a folder or a board. </b> </p>
-         </section>
-           <section class= "uf-label">
-             <p><b>Sitemap</b></p>
-             <img src= "assets/images/Sitemap.png" alt="Sitemap">
-           </section>
-           <button type="Submit" class="flows onclick=""location.href='https://drive.google.com/drive/folders/1KDcF420u0d0ivCeq6EsFW9njYfmJ862d?usp=sharing'"><b>VIEW USER FLOWS</b></button>
-         </section>
-<section class="Wireframes">
-<section class="Wireframe-header">
-  <h2>Wireframes</h2>
-  <p>How will a user navigate the app?</p>
-</section>
-<section class="text-w">
-  <p><b> Since my target audience is always on the go, it was important they wouldn’t have to spend extra time trying to decipher the app.  So to ensure it was simple and easy to maneuver I fleshed out ideas by sketching. With my information architecture and competitor research in hand I rapidly iterated layouts to determine which best aligned with my design goals.</b> </p>
-</section>
-<section class="Reflection">
-  <section class="ref-text">
-  <h4>Moving from research to the development phase<br> I had the following objectives in mind:</br></h4>
-  <ul>
-    <li><p>Design an intuitive dashboard where users can quickly upload, create, explore and share.</p></li>
-    <li><p>Implement an organizational design that includes boards and folders.</p></li>
-    <li><p>Provide an easy and quick onboarding experience with the option to sign up with social media.</p></li>
-    <li><p>Start off with MVP showcasing the high priority features and some medium priority features.</p></li>
-  </ul>
-</section>
-</section>
-  <section class="w-images">
-    <div class="Image1"><img src= "assets/images/Sketch1.png" alt="Sketch"></div>
-    <div class="Image2"><img src= "assets/images/Sketch2.png" alt="Sketch"></div>
-    <div class="Image3"><img src= "assets/images/Sketch3.png" alt="Sketch"></div>
-    <section class="Low-fidelity">
-  <h5>After deciding which layout would be the best solution I made a digital iteration of low-fidelity Wireframes using Figma. </h5>
-  <div class="Image1"><img src= "assets/images/Wireframe1.png" alt="Wireframe"></div>
-  <div class="Image1"><img src= "assets/images/Wireframe1.png" alt="Wireframe"></div>
-</section>
-</section>
-</section>
-<section class="Usability">
-  <section class="usability-title">
-    <h2> Usability Testing </h2>
-    <p>How are users interacting with the design?</p>
-  </section>
-<div class="Image1"><img src= "assets/images/usability-image.png" alt="user-images"></div>
-  <section class="usability-text">
-  <p><b>Using the digital wireframes I created a clickable prototype. I then conducted the first round of usability testing.  I asked users to complete specific tasks which included, signing up, uploading an item, and organizing a folder.</b></p>
-  <p>Here are some of the key findings:</p>
-  <ul>
-    <li>Participants  easily recognized this app is travel related and what  features they would be able to use with the app.</li>
-    <li>The sign up task was the easiest and quickest for both participants to complete. </li>
-    <li>Participants were unsure if the item had actually uploaded. Therefore I will be adding a screen that displays an upload confirmation notice. </li>
-    <li> One particpant was confused during the organization task. As the function only allowed them to send files to other folders. They wanted to be able organize files within the folder and didn’t understand why they couldn’t. </li>
-  </ul>
-  <p>This testing proved to be very informative. Problem areas were brought to the forefront. As I was able to see parts of the upload and organize flows I had missed.</p>
-  <p>Moving forward I knew I needed to revise the prototype to include success complete notifications within the flows for uploading, creating, and organizing items. Implementing this would increase the clear communication I was aiming to create with the user. To solve the second problem I would re-design the organize flow to include an option to organize within the current folder.</p>
-  </section>
-  </section>
-  <section class="Visual">
-    <section class="visual-title">
-               <h2>Visual Identity</h2>
-               <p>What are the brand's values?</p>
-             </section>
-             <section class="visual-text">
-               <div>
-                 <p><b>I then focused on creating a brand identity for the application. I started to determine what the brand’s values would be by creating a moodboard and word list. The core values chosen were joy and playfulness of traveling. The name is meant to describe the users as they use the service. It’s so simple and helpful they can’t help but be happy on their travels. </b></p>
-                 <p>It was challenging creating a logo that would convey these values without making it too cartoon like. I eventually landed the perfect combination that utilized negative space to create  a smile and a  hot air balloon icon.</p>
-                 <div class="Image1"><img src= "assets/images/Logo.png" alt="Logos"></div>
-                 <p>For the color palette yellow and blue were chosen to convey warmth and security. Elements like buttons, icons, and fonts were given rounded corners to avoid any harshness. During content strategy development a  focus was put  upon gathering images that were traveled related but showcased the same feeling of joy.</p>
-                 <div class="Image1"><img src= "assets/images/colors.png" alt="Color-Palette"></div>
-                   <p>For typography it was important to choose a font that felt more soft and rounded. It was also important that the fonts have a simple modern feel and be easy to read.</p>
-                   <div class="Image1"><img src= "assets/images/Typography.png" alt="Typography"></div>
-                 </section>
-                 <button type="Submit" class="style-guide onclick=""location.href='https://drive.google.com/file/d/1v-idt87Q2l89Y1Hbr27mqKH4xBTbebO2/view?usp=sharing'"><b>VIEW STYLE GUIDE</b></button>
-             </section>
-             <section class="Mockups">
-               <section class="mockup-title">
-                 <h2>Mockups</h2>
-                 <p>Does it all work together?</p>
-               </section>
-                 <section class="mockup-text">
-                   <p><b>Applying the branding to the wireframes, I created a high fidelity mockup. Leveraging the content within the moodboard I referred back to it as a reminder of the feelings I wanted to convey in the final design.</b></p>
-                   <p>I was able to pull inspiration for different imagery and experiment with different  iterations for the visual design. An additional focus of the visual design was to provide a good user experience by  maintaining consistency. I utilized style  to educate  users by establishing expectations through elements like buttons and links.</p>
-
-                <img src= "assets/images/Mockup1.png" alt="Mockup">
-                <img src= "assets/images/Mockup2.png" alt="Mockup">
-                <img src= "assets/images/Mockup3.png" alt="Mockup">
-
-                     <img src= "assets/images/Mockup4.png" alt="Mockup">
-                    <img src= "assets/images/Mockup5.png" alt="Mockup">
-                     <img src= "assets/images/Mockup6.png" alt="Mockup">
-                 </section>
-               </section>
-
-               <section class="AB">
-                 <section class="ab-title">
-                 <h2> A/B Testing </h2>
-                 <p>How will the app look?</p>
-               </section>
-               <section class="ab-text">
-                 <p><b>Despite, overall success in the functionality of the applications features. I still was unsure about some elements of the visual design. The visual design still lacked the bright and joyful tone I was trying to convey. So using A/B  testing I was able to see what users would prefer and why. </b></p>
-                 <p>Results I received led me to change:</p>
-               <ul>
-                 <li>My hero image to a photo featuring a real person  with a joyful expression.</li>
-                 <li>The call to action buttons to a bright hot pink, since respondents said blue was not eye-catching enough and red was too alarming.</li>
-                 <li>The upload and create option screens would be opaque and hide the side dashboard so users could focus on the task at hand.</li>
-               </ul>
-             </section>
-           </sectiion>
-               </section>
-               <section class="Final-MVP">
-                 <section class="final-title">
-                 <h2>Final MVP</h2>
-                 <p> Was the objective met?</p>
-               </section>
-             <section class="final-text">
-                 <p><b>A final round of usability testing  was  conducted with the results showing  that each task was completed in under 60 seconds with virtually no questions. Users said everything was clearly labeled which made it simple to use. After a few few more visual tweaks to align the branding with the spirit of Happy Nomad,  the minimum viable product was complete.</b></p>
-               </section>
-                 <img src="http://lorempixel.com/350/260/abstract/placeholder-1" alt="project screenshot"/>
-                 <button type="Submit" class="prototype-button" onclick="location.href='https://invis.io/9VO13PCXAC6'">VIEW PROTOTYPE</button>
-               </section>
-               <section class="Conclusion">
-                    <section class="Conclusion-title">
-                 <h2> Conclusion</h2>
-                 <p> What did I learn?</p>
-               </section>
-                    <section class="Conclusion-text">
-                 <p> Despite having some doubt that there would be a way to offer a unique cloud storage service, due to the space being crowded.  However, it was  helpful to evaluate  competitors, and discover that they were under serving the traveling market. This research helped immensely in creating a distinguishable competitive advantage. In further development of the application  I recognized the importance of having a thorough  survey.  It provided invaluable insight and details from users that I served as  strong foundation for the application, and that I could refer to at different stages.</p>
-                 <p>Another  key insight I learned through working on this application  is that testing is the best way to silence your inner critic. Due to  the endless options available in design overthinking can go into overdrive. However, clarity quickly comes when you  see a real user navigate  the application.</p>
-</section>
-               </section>
-      </div>
-    </main>
-    <footer>
-      <ul>
-        <li><a href="https://www.linkedin.com/in/keyonarichey"><i class="fab fa-linkedin"></i></li>
-          <li><a href="https://github.com/KeyRichey"><i class="fab fa-github"></i></li>
-            <li><a href="mailto:keyona.richey@gmail.com"><i class="fas fa-envelope"></i></li>
+          <button type="Submit" class="style-guide" onclick="location.href='https://drive.google.com/file/d/1v-idt87Q2l89Y1Hbr27mqKH4xBTbebO2/view?usp=sharing'"><b>VIEW STYLE GUIDE</b></button>
+        </section>
+        <section class="Mockups">
+          <section class="mockup-title">
+            <h2>Mockups</h2>
+            <p>Does it all work together?</p>
+          </section>
+          <section class="mockup-text">
+            <p><b>Applying the branding to the wireframes, I created a high fidelity mockup. Leveraging the content within the moodboard I referred back to it as a reminder of the feelings I wanted to convey in the final design.</b></p>
+            <p>I was able to pull inspiration for different imagery and experiment with different  iterations for the visual design. An additional focus of the visual design was to provide a good user experience by  maintaining consistency. I utilized style  to educate  users by establishing expectations through elements like buttons and links.</p>
+          </section>
+          <section class="Mockup-images">
+            <p>The images below illustrate how I iterated with variations of color, opacity, and size. This is how I reached a design solution that had the optimal legible contrast, visual hierarchy, and clean aesthetic.  </p>
+            <h4>Upload an Item</h4>
+              </section>
+            <section class= "Upload-Images">
+            <img src= "assets/images/Mockup4.png" alt="Mockup">
+            <img src= "assets/images/Mockup5.png" alt="Mockup">
+            <img src= "assets/images/Mockup6.png" alt="Mockup">
+          </section>
+      </section>
+        <section class="AB">
+          <section class="ab-title">
+            <h2> A/B Testing </h2>
+            <p>How will the app look?</p>
+          </section>
+          <section class="ab-text">
+            <p><b>Despite, overall success in the functionality of the applications features. I still was unsure about some elements of the visual design. The visual design still lacked the bright and joyful tone I was trying to convey. So using A/B  testing I was able to see what users would prefer and why. </b></p>
+            <p>Pictured below is one test that was used to determine the best color for the call to action buttons. 50% of respondents chose the blue button, and said the red button felt too alarming like something was wrong. The remaining 50% chose the red button because they felt the blue button was not eye catching enough. Despite the split result, I was able to use the feedback to find a compromise between the two colors by using hot pink. A color that is both eye-catching but doesn't evoke alarm.</p>
+            <div class="ab-image"><img src="assets/images/AB.png" alt="A/B Testing"></div>
+            <h4>Solution</h4>
+            <div class="ab-image"><img src="assets/images/AB2.png" alt="A/B Testing Solution"></div>
+            <p>Additional test results led me to also change:</p>
+            <ul>
+              <li>My hero image to a photo featuring a real person  with a joyful expression.</li>
+              <li>The upload and create option screens would be opaque and hide the side dashboard so users could focus on the task at hand.</li>
             </ul>
-            <p><b>2019 Designed & Developed By Keyona Richey</b></p>
-          </footer>
-        </body>
-        </html>
+          </section>
+        </sectiion>
+      </section>
+      <section class="Final-MVP">
+        <section class="final-title">
+          <h2>Final MVP</h2>
+          <p> Was the objective met?</p>
+        </section>
+        <section class="final-text">
+          <p><b>A final round of usability testing  was  conducted with the results showing  that each task was completed in under 60 seconds with virtually no questions. Users said everything was clearly labeled which made it simple to use. After a few few more visual tweaks to align the branding with the spirit of Happy Nomad,  the minimum viable product was complete.</b></p>
+        </section>
+        <img src= "assets/images/LandingPage.png" alt="Mockup">
+        <button type="Submit" class="prototype-button" onclick="location.href='https://invis.io/9VO13PCXAC6'">VIEW PROTOTYPE</button>
+      </section>
+      <section class="Conclusion">
+        <section class="Conclusion-title">
+          <h2> Conclusion</h2>
+          <p> What did I learn?</p>
+        </section>
+        <section class="Conclusion-text">
+          <p> Despite having some doubt that there would be a way to offer a unique cloud storage service, due to the space being crowded.  However, it was  helpful to evaluate  competitors, and discover that they were under serving the traveling market. This research helped immensely in creating a distinguishable competitive advantage. In further development of the application  I recognized the importance of having a thorough  survey.  It provided invaluable insight and details from users that I served as  strong foundation for the application, and that I could refer to at different stages.</p>
+          <p>Another  key insight I learned through working on this application  is that testing is the best way to silence your inner critic. Due to  the endless options available in design overthinking can go into overdrive. However, clarity quickly comes when you  see a real user navigate  the application.</p>
+        </section>
+      </section>
+    </div>
+  </main>
+  <footer>
+    <ul>
+      <li><a href="https://www.linkedin.com/in/keyonarichey"><i class="fab fa-linkedin"></i></li>
+        <li><a href="https://github.com/KeyRichey"><i class="fab fa-github"></i></li>
+          <li><a href="mailto:keyona.richey@gmail.com"><i class="fas fa-envelope"></i></li>
+          </ul>
+          <p><b>2019 Designed & Developed By Keyona Richey</b></p>
+    </footer>
+</body>
+</html>

@@ -79,7 +79,7 @@ section.bio-header p{
   text-align: center;
   color: indigo;
   width: 50%;
-  font-family:'SF Pro Display', sans-serif;
+  font-family:'Shrikhand', sans-serif;
   margin-left: 24%;
   font-size: 54px;
 }
@@ -88,14 +88,14 @@ section.second-header p{
   text-align: center;
   color: black;
   width: 50%;
-  font-family:'SF Pro Display', sans-serif;
+  font-family:'Shrikhand', sans-serif;
   margin-left: 25%;
   font-size: 54px;
 }
 
 section.bio-text h3{
   color: indigo;
-  font-family: 'Shrikhand', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 21px;
   text-transform: capitalize;
   margin-left: 25%;

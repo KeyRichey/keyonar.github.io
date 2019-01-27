@@ -73,29 +73,32 @@ nav ul li a:hover{
 }
 
 section.text{
-  margin-top: 72px;
+  margin-top: 42px;
 }
 
 h2{
-  font-family:'Montserrat';
-  font-size:54px;
+  font-family:'SF Pro Display',sans-serif;
+  font-size:84px;
   color: #FCFCFC;
   margin-left: 64px;
+  margin-bottom: 14px;
 }
 
 h3{
-  font-family:'Montserrat';
-  font-size:54px;
+  font-family:'SF Pro Display',sans-serif;
+  font-size:48px;
   color: #FCFCFC;
   width: 70%;
   margin-left: 64px;
 }
 
 .tagline{
-  font-family: 'SF Pro Display';
+  font-family: 'SF Pro Display',sans-serif;
   font-size: 32px;
   color: #FCFCFC;
   margin-left: 64px;
+  margin-top: 24px;
+  line-height: 120%;
 }
 
 /* Divider */
@@ -103,7 +106,7 @@ section.header{
   height: 50px;
 }
 .header h3{
-  font-family: 'SF Pro Display';
+  font-family: 'SF Pro Display',sans-serif;
   color: indigo;
   font-size: 20px;
   margin-left:auto;
@@ -124,7 +127,7 @@ section.header{
 }
 
 .HappyNomad h2{
-  font-family: 'SF Pro Display';
+  font-family: 'SF Pro Display',sans-serif;
   color: #060809;
   font-size: 60px;
   margin-left: 64px;
@@ -132,7 +135,7 @@ section.header{
 }
 
 .HappyNomad p{
-  font-family: 'SF Pro Display';
+  font-family: 'SF Pro Display',sans-serif;
   color: #060809;
   font-size: 20px;
   width:70%;
@@ -142,7 +145,7 @@ section.header{
 /* Case Study Button */
 .cs-button{
   font-size: 14px;
-  font-family: 'SF Pro Display';
+  font-family: 'SF Pro Display',sans-serif;
   width: 215px;
   padding: 14px;
   margin-left:64px;

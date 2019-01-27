@@ -1,0 +1,201 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html{
+  background-color: lavender;
+  color: #201313;
+}
+
+main{
+  height: 1045px;
+}
+
+.container{
+  width: 100%;
+  height: 1000px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 10px;
+  background-image: url(../img/hero-image.png);
+}
+
+.logo{
+  margin-left: 24px;
+}
+
+/* Navigation */
+nav{
+  display: flex;
+  width: 100%;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100px;
+  font-family: 'Muli', sans-serif;
+}
+
+nav ul{
+  display: inline-flex;
+  justify-content: space-between;
+  width: 50%;
+  margin-right: 24px;
+}
+
+nav ul li{
+  list-style: none;
+}
+
+nav ul li a{
+  color: indigo;
+  text-decoration: none;
+  list-style: none;
+  font-weight: bold;
+  letter-spacing: 3px;
+  font-size: 12px;
+}
+
+nav ul li a:hover{
+  text-decoration: overline;
+  color: lavender;
+}
+
+/* Hero Section/BG */
+.hero{
+  width: 100%;
+  height: 500px;
+  background-image: url(../assets/images/hero-image.png);
+  background-position: center;
+  background-size: cover;
+}
+
+section.text{
+  margin-top: 72px;
+}
+
+h2{
+  font-family:'Montserrat';
+  font-size:54px;
+  color: #FCFCFC;
+  margin-left: 64px;
+}
+
+h3{
+  font-family:'Montserrat';
+  font-size:54px;
+  color: #FCFCFC;
+  width: 70%;
+  margin-left: 64px;
+}
+
+.tagline{
+  font-family: 'SF Pro Display';
+  font-size: 32px;
+  color: #FCFCFC;
+  margin-left: 64px;
+}
+
+/* Divider */
+section.header{
+  height: 50px;
+}
+.header h3{
+  font-family: 'SF Pro Display';
+  color: indigo;
+  font-size: 20px;
+  margin-left:auto;
+  margin-right: auto;
+  margin-top: 14px;
+  letter-spacing: 2px;
+  text-align: center;
+
+}
+
+/* Case Study */
+.HappyNomad{
+  width: 100%;
+  align-items: center;
+  display: flex;
+  background-color: #FAFAFA;
+  color: #201313;
+}
+
+.HappyNomad h2{
+  font-family: 'SF Pro Display';
+  color: #060809;
+  font-size: 60px;
+  margin-left: 64px;
+  margin-bottom: 12px;
+}
+
+.HappyNomad p{
+  font-family: 'SF Pro Display';
+  color: #060809;
+  font-size: 20px;
+  width:70%;
+  margin-left: 64px;
+}
+
+/* Case Study Button */
+.cs-button{
+  font-size: 14px;
+  font-family: 'SF Pro Display';
+  width: 215px;
+  padding: 14px;
+  margin-left:64px;
+  margin-top: 42px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: indigo;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.05), 0 6px 20px 0 rgba(0,0,0,.1);
+}
+
+.cs-button:hover {
+  background-color: transparent;
+  color: indigo;
+}
+
+/* Footer */
+footer{
+  height: 80px;
+  background-color: lavender;
+}
+
+footer ul{
+  display: inline-flex;
+  margin-left: 550px;
+}
+
+footer ul li{
+  list-style: none;
+  margin-right: 24px;
+  margin-top: 18px;
+}
+
+footer ul li a{
+  color: indigo;
+  width: 10%;
+  text-decoration: none;
+  list-style: none;
+  letter-spacing: 3px;
+  font-size: 32px;
+}
+
+footer ul li a:hover{
+  text-decoration: overline;
+  color: white;
+}
+
+footer p{
+  color: indigo;
+  font-family:'SF Pro Display', sans-serif;
+  font-size: 14px;
+  float: left;
+  text-decoration: none;
+  width: 40%;
+  margin-left: 24px;
+margin-top: 24px;
+}

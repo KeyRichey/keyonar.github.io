@@ -1,0 +1,166 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html{
+  background-color: #FAFAFA;
+  color: #201313;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  margin-top: 120px;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+/* Navigation */
+nav{
+  align-items: center;
+  background: rgba(255, 255, 255, 0.9);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  display: flex;
+  font-family: 'Muli', sans-serif;
+  justify-content: space-between;
+  min-height: 100px;
+}
+
+.logo{
+  margin-left: 24px;
+}
+
+nav ul{
+  display: inline-flex;
+  justify-content: space-between;
+  width: 50%;
+  margin-right: 24px;
+}
+
+nav ul li{
+  list-style: none;
+}
+
+nav ul li a{
+  color: indigo;
+  text-decoration: none;
+  list-style: none;
+  font-weight: bold;
+  letter-spacing: 3px;
+  font-size: 12px;
+}
+
+nav ul li a:hover{
+  text-decoration: overline;
+  color: lavender;
+}
+
+section.bio-image{
+  height: 325px;
+  margin-bottom: 12px;
+  display: block;
+  margin-left: 38%;
+  margin-top: 42px;
+  margin-bottom:8px;
+  width: 100%;
+}
+
+/* Bio Text */
+section.bio-header p{
+  text-align: center;
+  color: indigo;
+  width: 50%;
+  font-family:'SF Pro Display', sans-serif;
+  margin-left: 24%;
+  font-size: 54px;
+}
+
+section.second-header p{
+  text-align: center;
+  color: black;
+  width: 50%;
+  font-family:'SF Pro Display', sans-serif;
+  margin-left: 25%;
+  font-size: 54px;
+}
+
+section.bio-text h3{
+  color: indigo;
+  font-family: 'Shrikhand', sans-serif;
+  font-size: 21px;
+  text-transform: capitalize;
+  margin-left: 25%;
+  margin-bottom: 18px;
+  margin-top: 54px;
+}
+
+section.bio-text p{
+  font-family: 'SF Pro Display', sans-serif;
+  font-size: 17px;
+  line-height: 140%;
+  padding-top: 0px;
+  color: #060809;
+  display: block;
+  width: 50%;
+  margin-left: 25%;
+}
+
+section.oprah-image{
+  width: 15%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:32px;
+  margin-bottom:32px;
+}
+
+/* Footer */
+footer{
+  height: 80px;
+  background-color: lavender;
+}
+
+footer ul{
+  display: inline-flex;
+  margin-left: 550px;
+}
+
+footer ul li{
+  list-style: none;
+  margin-right: 24px;
+  margin-top: 24px;
+}
+
+footer ul li a{
+  color: indigo;
+  width: 10%;
+  text-decoration: none;
+  list-style: none;
+  letter-spacing: 3px;
+  font-size: 32px;
+}
+
+footer ul li a:hover{
+  text-decoration: overline;
+  color: white;
+}
+
+footer p{
+  color: indigo;
+  font-family:'SF Pro Display', sans-serif;
+  font-size: 14px;
+  float: left;
+  text-decoration: none;
+  width: 40%;
+  margin-left: 24px;
+  margin-top: 32px;
+}

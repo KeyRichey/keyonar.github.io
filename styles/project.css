@@ -1,0 +1,1047 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html{
+  background-color: white;
+}
+
+main{
+  width: 100%;
+  height: auto;
+  background-color: purple;
+}
+
+.container{
+  width: 100%;
+  margin-top:120px;
+  height: auto;
+  line-height: 140%;
+  font-family: 'SF Pro Display', sans-serif;
+  font-size: 17px;
+  color: #292929;
+  background-color: #FAFAFA;
+  letter-spacing: 0.8px;
+}
+
+.logo{
+  margin-left: 24px;
+}
+
+/* Navigation */
+nav{
+  display: flex;
+  background: rgba(255, 255, 255, 0.9);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100px;
+  font-family: 'Muli', sans-serif;
+}
+
+nav ul{
+  display: inline-flex;
+  justify-content: space-between;
+  width: 50%;
+  margin-right: 24px;
+}
+
+nav ul li{
+  list-style: none;
+}
+
+nav ul li a{
+  color: indigo;
+  text-decoration: none;
+  list-style: none;
+  font-weight: bold;
+  letter-spacing: 3px;
+  font-size: 12px;
+}
+
+nav ul li a:hover{
+  text-decoration: overline;
+  color: lavender;
+}
+
+/* Hero Section */
+.hero{
+  background-color: #0226AD;
+  height: auto;
+  width: 100%;
+}
+
+/* Hero Text */
+.hero h1{
+  color: #FCFCFC;
+  display: block;
+  font-size:48px;
+  padding-bottom: 54px;
+  padding-top: 54px;
+  width: 100%;
+  height: 30px;
+  text-align: center;
+}
+
+.hero p{
+  color: #FCFCFC;
+  font-size:21px;
+  line-height: 130%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 550px;
+}
+
+.hero button{
+  color: #FCFCFC;
+  background-color: #EB177B;
+  border: none;
+  border-radius: 5px;
+  font-family:'SF Pro Display';
+  font-size: 17px;
+  height: 54px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 32px;
+  margin-top: 32px;
+  width: 215px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.05), 0 6px 20px 0 rgba(0,0,0,.1);
+}
+
+.hero button:hover {
+  background-color: #FCFCFC;
+  color: #EB177B;
+}
+
+.hero img{
+  height: 500px;
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 32px;
+}
+
+/* Details/Roles Info */
+section.details{
+  height: 350px;
+  width: 100%;
+  border-bottom: medium solid #CFCFCF;
+  justify-content: space-around;
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+}
+
+section.details ul{
+  margin: 0 auto 0 auto;
+}
+
+section.details ul li h3{
+  font-family: 'SF Pro Display';
+  font-size: 24px;
+  color: #0226AD;
+  text-decoration: underline;
+  text-decoration-color: #0226AD;
+  margin-top: 42px;
+  text-align: center;
+}
+
+section.details ul li {
+  margin-top: 12px;
+  list-style: none;
+}
+
+section.details ul li p{
+  font-size: 17px;
+  text-align: center;
+  color: #201313;
+}
+
+/* Problem/Solution */
+
+section.Problem{
+  width: 50%;
+  height: 360px;
+  display: inline-block;
+}
+
+section.Solution {
+  display: inline-block;
+  width: 50%;
+  height: 360px;
+  float: right;
+}
+
+section.Problem h2{
+  border-style: none none solid none;
+  border-color: #EB177B;
+  color:#201313;
+  margin-bottom: 12px;
+  margin-left: 130px;
+  margin-top: 42px;
+  padding-bottom: 8px;
+  width: 100px;
+}
+
+section.Solution h2 {
+  border-style: none none solid none;
+  border-color: #FFAE31;
+  color:#201313;
+  margin-bottom: 12px;
+  margin-left: 130px;
+  margin-top: 42px;
+  padding-bottom: 8px;
+  width: 100px;
+}
+
+section.Problem p{
+  font-size: 17px;
+  margin-left: 110px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section.Solution p{
+  font-size: 17px;
+  margin-left: 110px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Process Divider */
+section.Process-header{
+  text-align: center;
+  color: #0226AD;
+  border-bottom: medium solid #CFCFCF;
+  border-top: medium solid #CFCFCF;
+  font-size: 32px;
+  height: 80px;
+  width: 100%;
+}
+
+/* Competitive Analysis */
+section.competitive-analysis{
+  height: auto;
+  border-bottom: medium solid #CFCFCF;
+}
+
+section.ca-header{
+  height: 80px;
+  width: 100%;
+}
+
+section.ca-header h2{
+  font-size: 32px;
+  text-align: center;
+  margin-top: 42px;
+  margin-bottom: 16px;
+  color: black;
+}
+
+section.ca-header p{
+  font-size: 24px;
+  text-align: center;
+}
+
+section.ca-text img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+
+section.ca-text {
+  display: block;
+  line-height: 140%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+  border-bottom: thin solid #EBE8DF;
+  padding-bottom: 24px;
+  border-top: thin solid #EBE8DF;
+  padding-top: 24px;
+}
+
+section.assumptions{
+  width: 100%;
+  margin-top: 24px;
+  border-bottom: medium solid #EBE8DF;
+  padding-bottom: 12px;
+}
+
+section.assumptions p{
+  display: block;
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 24px;
+  width: 45%;
+}
+section.assumptions ul li p{
+  height: 48px;
+  border-left: 4px solid #0226AD;
+  padding-left: 10px;
+}
+
+/* User Survey */
+section.Survey{
+  width: 100%;
+  height: auto;
+  padding-top: 32px;
+  border-bottom: medium solid #CFCFCF;
+}
+
+
+section.survey-title h2{
+  font-size: 32px;
+  text-align: center;
+  margin-top: 12px;
+  margin-bottom: 16px;
+  color: black;
+}
+
+section.survey-title p{
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+section.survey-text h3{
+margin-top: 24px;
+margin-bottom: 24px;
+}
+
+section.survey-images{
+  width: 100%;
+}
+
+section.survey-images img{
+  display: inline-block;
+  background-color: teal;
+  width: auto;
+}
+
+section.survey-text{
+  display: block;
+  line-height: 140%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+  border-bottom: thin solid #EBE8DF;
+  padding-bottom: 24px;
+  border-top: thin solid #EBE8DF;
+  padding-top: 24px;
+}
+
+section.pain-points p{
+  font-size: 24px;
+  border-left: 4px solid #0226AD;
+  padding-left: 10px;
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section.survey-button button{
+  background-color: #FCFCFC;
+  color: #0226AD;
+  font-family: 'SF Pro Display';
+  font-size: 17px;
+  border-color: #0226AD;
+  border-width: thick;
+  border-radius: 5px;
+  height: 42px;
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 32px;
+}
+
+section.survey-button button:hover {
+  background-color: black;
+  color: white;
+}
+
+/* User Personas */
+section.User-Personas{
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  padding-top: 24px;
+  border-bottom: medium solid #CFCFCF;
+}
+
+
+section.persona-title h2{
+font-size: 32px;
+text-align: center;
+margin-top: 12px;
+margin-bottom: 16px;
+color: black;
+}
+
+section.persona-title p{
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+section.persona-text{
+  display: block;
+  line-height: 140%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+  border-bottom: thin solid #EBE8DF;
+  padding-bottom: 24px;
+  border-top: thin solid #EBE8DF;
+  padding-top: 12px;
+}
+
+.persona-text p{
+    margin-top: 12px;
+}
+
+section.persona-text ul li{
+    margin-top: 12px;
+}
+
+.Persona-Examples{
+  margin-top: 32px;
+}
+
+.Sage-Persona img{
+  margin-top: 14px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 40%;
+  display: block;
+}
+
+section.Sage-Persona{
+  width: 40%;
+  height: 880px;
+  border: thick solid #EBE8DF;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 24px;
+  margin-bottom: 32px;
+  padding-top: 12px;
+}
+
+.Sage-Persona h2{
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 14px;
+  display: block;
+  width: 60%;
+}
+
+.Sage-Persona h3{
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top:8px;
+  display: block;
+  width: 45%;
+}
+
+div{
+  margin-top: 24px;
+}
+
+.Sage-Persona p{
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  width: 80%;
+}
+
+
+section.Jesse-Persona{
+  width: 40%;
+  height: 850px;
+  border: thick solid #EBE8DF;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 24px;
+  margin-bottom: 32px;
+  padding-top: 12px;
+}
+
+.Jesse-Persona h2{
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top:14px;
+  display: block;
+  width: 60%;
+}
+
+.Jesse-Persona h3{
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 8px;
+  display: block;
+  width: 60%;
+}
+
+div{
+  margin-top: 24px;
+}
+
+.Jesse-Persona p{
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  width: 80%;
+}
+
+.Jesse-Persona img{
+  margin-top: 24px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+
+section.User-Personas button{
+  background-color: #FCFCFC;
+  color: #0226AD;
+  font-family: 'SF Pro Display';
+  font-size: 17px;
+  border-color: #0226AD;
+  border-width: thick;
+  border-radius: 5px;
+  height: 42px;
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 32px;
+}
+
+section.User-Personas button:hover {
+  background-color: #0226AD;
+  color: #FCFCFC;
+}
+
+/* User Stories */
+section.User-Stories{
+  height: auto;
+  border-bottom: medium solid #CFCFCF;
+}
+section.us-header h2{
+  font-size: 32px;
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 16px;
+  color: black;
+}
+
+section.us-header p{
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+section.User-Stories-text{
+  border-top: thin solid #EBE8DF;
+  padding-top: 24px;
+  padding-bottom: 32px;
+  width: 100%;
+}
+
+section.Stories-text{
+  display: block;
+  line-height: 140%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+  border-top: thin solid #EBE8DF;
+  border-bottom: thin solid #EBE8DF;
+  padding-bottom: 24px;
+}
+
+section.Stories-text p{
+  margin-top: 24px;
+}
+
+section.User-Stories img{
+display: block;
+margin-left: auto;
+margin-right: auto;
+padding-bottom: 32px;
+margin-top: 32px;
+}
+
+section.User-Stories button{
+background-color: #FCFCFC;
+color: #0226AD;
+font-family: 'SF Pro Display';
+font-size: 17px;
+border-color: #0226AD;
+border-width: thick;
+border-radius: 5px;
+height: 42px;
+width: 200px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 32px;
+}
+
+
+section.User-Stories button:hover {
+  background-color: #0226AD;
+  color: white;
+}
+
+/* User Flows */
+section.User-Flows{
+  height: auto;
+  border-bottom: medium solid #CFCFCF;
+}
+section.flow-header h2{
+  font-size: 32px;
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 16px;
+  color: black;
+}
+
+section.flow-header p{
+  font-size: 24px;
+  text-align: center;
+}
+
+section.uf-text{
+display: block;
+line-height: 140%;
+margin-left: auto;
+margin-right: auto;
+margin-top: 24px;
+width: 45%;
+border-top: thin solid #EBE8DF;
+border-bottom: thin solid #EBE8DF;
+padding-top: 24px;
+padding-bottom: 24px;
+}
+
+
+section.uf-label p{
+font-family:'Montserrat';
+font-size: 14px;
+text-align: center;
+margin-top: 32px;
+margin-bottom: 4px;
+}
+
+section.uf-label img{
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height: auto;
+  border-radius: 5px;
+}
+
+section.User-Flows button{
+  background-color: #FCFCFC;
+  color: #0226AD;
+  font-family: 'SF Pro Display';
+  font-size: 17px;
+  border-color: #0226AD;
+  border-width: thick;
+  border-radius: 5px;
+  height: 42px;
+  width: 200px;
+  display: block;
+  margin-top: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 32px;
+}
+
+section.User-Flows button:hover {
+  background-color: #0226AD;
+  color: white;
+}
+
+section.Reflection{
+  line-height: 140%;
+  margin-top: 32px;
+  width: 100%;
+}
+
+section.ref-text{
+  margin-bottom: 32px;
+}
+
+section.ref-text h4{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+}
+
+section.ref-text p{
+  height: 48px;
+  border-left: 4px solid #0226AD;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  text-decoration: none;
+  margin-top: 12px;
+  width: 45%;
+}
+
+/* Wireframes */
+section.Wireframes{
+  height: auto;
+  border-bottom: medium solid #CFCFCF;
+}
+
+section.Wireframe-header h2{
+  font-size: 32px;
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 16px;
+  color: black;
+}
+
+section.Wireframe-header p{
+  font-size: 24px;
+  text-align: center;
+}
+
+section.text-w p{
+display: block;
+line-height: 140%;
+margin-left: auto;
+margin-right: auto;
+margin-top: 24px;
+width: 45%;
+border-top: thin solid #EBE8DF;
+border-bottom: thin solid #EBE8DF;
+padding-top: 24px;
+padding-bottom: 32px;
+}
+
+section.w-images{
+display: inline-flex;
+width: 100%;
+height: auto;
+}
+
+section.Low-fidelity{
+  width:100%;
+  margin-top: 24px;
+  height: auto;
+}
+
+/* Usability Testing */
+section.Usability{
+  height: auto;
+  border-bottom: medium solid #CFCFCF;
+}
+
+section.usability-title h2{
+  font-size: 32px;
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 16px;
+  color: black;
+}
+
+section.usability-title p{
+  font-size: 24px;
+  text-align: center;
+}
+
+section.usability-text{
+  display: block;
+  line-height: 140%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 24px;
+  width: 45%;
+  border-top: thin solid #EBE8DF;
+  border-bottom: thin solid #EBE8DF;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+section.usability-text p{
+  margin-bottom: 14px;
+}
+section.usability-text ul li{
+  margin-bottom: 14px;
+}
+
+section.Usability img{
+display: block;
+width:40%;
+height: auto;
+margin-right: auto;
+margin-left: auto;
+}
+
+section.Low-fidelity{
+  width:100%;
+  margin-top: 24px;
+  height: auto;
+}
+
+/* Visual Identity */
+section.Visual{
+height: auto;
+border-bottom: medium solid #CFCFCF;
+}
+section.visual-title h2{
+  font-size: 32px;
+  text-align: center;
+  padding-top: 32px;
+  margin-bottom: 16px;
+  color: black;
+}
+
+section.visual-title p{
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+section.visual-text{
+display: block;
+line-height: 140%;
+margin-left: auto;
+margin-right: auto;
+margin-top: 24px;
+width: 45%;
+border-top: thin solid #EBE8DF;
+border-bottom: thin solid #EBE8DF;
+}
+
+section.visual-text p{
+  margin-bottom: 14px;
+}
+
+section.visual-text img{
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 34px;
+margin-bottom: 48px;
+width: 60%;
+height: auto;
+}
+
+section.Visual button{
+    background-color: #FCFCFC;
+    color: #0226AD;
+    font-family: 'SF Pro Display';
+    font-size: 17px;
+    border-color: #0226AD;
+    border-width: thick;
+    border-radius: 5px;
+    height: 42px;
+    width: 200px;
+    display: block;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 32px;
+  }
+
+  section.Visual button:hover {
+    background-color: #0226AD;
+    color: white;
+  }
+
+  /* A/B Testing */
+  section.AB{
+    height: auto;
+    border-bottom: medium solid #CFCFCF;
+  }
+
+  section.ab-title h2{
+    font-size: 32px;
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 16px;
+    color: black;
+  }
+
+  section.ab-title p{
+    font-size: 24px;
+    text-align: center;
+  }
+
+  section.ab-text{
+    display: block;
+    line-height: 140%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+    width: 45%;
+    border-top: thin solid #EBE8DF;
+    border-bottom: thin solid #EBE8DF;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  section.ab-text p{
+    margin-bottom: 14px;
+  }
+
+  /* Final MVP */
+  section.Final-MVP{
+    height: auto;
+    border-bottom: medium solid #CFCFCF;
+  }
+
+  section.final-title h2{
+    font-size: 32px;
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 16px;
+    color: black;
+  }
+
+  section.final-title p{
+    font-size: 24px;
+    text-align: center;
+  }
+
+  section.final-text{
+    display: block;
+    line-height: 140%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+    width: 45%;
+    border-top: thin solid #EBE8DF;
+    border-bottom: thin solid #EBE8DF;
+    padding-top: 24px;
+    padding-bottom: 14px;
+  }
+
+  section.final-text p{
+    margin-bottom: 14px;
+  }
+
+section.Final-MVP button{
+  color: #FCFCFC;
+  background-color: #EB177B;
+  border: none;
+  border-radius: 5px;
+  font-family:'SF Pro Display';
+  font-size: 17px;
+  height: 54px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 32px;
+  margin-top: 32px;
+  width: 215px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.05), 0 6px 20px 0 rgba(0,0,0,.1);
+}
+
+section.Final-MVP button:hover {
+  background-color: #FCFCFC;
+  color: #EB177B;
+}
+
+/* Conclusion */
+  section.Conclusion{
+    height: auto;
+  }
+
+  section.Conclusion-title h2{
+    font-size: 32px;
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 16px;
+    color: black;
+  }
+
+  section.Conclusion-title p{
+    font-size: 24px;
+    text-align: center;
+  }
+
+  section.Conclusion-text{
+    display: block;
+    line-height: 140%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+    width: 45%;
+    border-top: thin solid #EBE8DF;
+    border-bottom: thin solid #EBE8DF;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  section.Conclusion-text p{
+    margin-bottom: 14px;
+  }
+
+/* Footer */
+footer{
+  height: 80px;
+  background-color:lavender;
+}
+
+footer ul{
+  display: inline-flex;
+  margin-left: 550px;
+}
+
+footer ul li{
+  list-style: none;
+  margin-right: 24px;
+  margin-top: 24px;
+}
+
+footer ul li a{
+  color: indigo;
+  width: 10%;
+  text-decoration: none;
+  list-style: none;
+  letter-spacing: 3px;
+  font-size: 32px;
+}
+
+footer ul li a:hover{
+  text-decoration: overline;
+  color: white;
+}
+
+footer p{
+  color: indigo;
+  font-family:'SF Pro Display';
+  font-size: 14px;
+  float: left;
+  margin-left: 24px;
+  margin-top: 32px;
+  text-decoration: none;
+  width: 40%;
+}

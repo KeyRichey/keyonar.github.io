@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+/* Desktop */
+
 html{
   background-color: #FAFAFA;
   color: #201313;
@@ -35,15 +37,12 @@ nav{
   min-height: 100px;
 }
 
-.logo{
-  margin-left: 24px;
-}
-
 nav ul{
   display: inline-flex;
   justify-content: space-between;
   width: 50%;
   margin-right: 24px;
+  transition: .5s;
 }
 
 nav ul li{
@@ -64,17 +63,24 @@ nav ul li a:hover{
   color: lavender;
 }
 
-section.bio-image{
-  height: 325px;
-  margin-bottom: 12px;
-  display: block;
-  margin-left: 38%;
-  margin-top: 42px;
-  margin-bottom:8px;
-  width: 100%;
+.logo{
+  margin-left: 32px;
 }
 
-/* Bio Text */
+/* Bio Text/Image */
+
+section.bio-image{
+  height: 300px;
+  display: block;
+  margin-top: 24px;
+  margin-bottom: 32px;
+  width: 25%;
+  margin-right: auto;
+  margin-left: auto;
+  background-repeat: no-repeat;
+  background-image: url(../assets/images/bio-image.png);
+}
+
 section.bio-header p{
   text-align: center;
   color: indigo;
@@ -116,37 +122,51 @@ section.bio-text p{
 
 section.oprah-image{
   width: 15%;
+  height: 175px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top:32px;
-  margin-bottom:32px;
+  margin-top:42px;
+  margin-bottom:42px;
+  background-repeat: no-repeat;
+  background-image: url(../assets/images/oprah-image.png);
 }
 
 /* Footer */
 footer{
-  height: 80px;
+  height: 110px;
   background-color: lavender;
+  align-items: center;
 }
 
 footer ul{
-  display: inline-flex;
-  margin-left: 550px;
+  width: 14%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 footer ul li{
-  list-style: none;
-  margin-right: 24px;
-  margin-top: 24px;
-}
-
-footer ul li a{
   color: indigo;
-  width: 10%;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 24px;
   text-decoration: none;
   list-style: none;
   letter-spacing: 3px;
   font-size: 32px;
+}
+
+footer ul li a{
+  color: indigo;
+  display: block;
+  margin-left: 8px;
+  margin-right: 8px;
+  text-decoration: none;
+  list-style: none;
+  letter-spacing: 3px;
+  font-size: 36px;
 }
 
 footer ul li a:hover{
@@ -157,10 +177,190 @@ footer ul li a:hover{
 footer p{
   color: indigo;
   font-family:'SF Pro Display', sans-serif;
-  font-size: 14px;
-  float: left;
+  font-size: 16px;
+  margin-top: 12px;
   text-decoration: none;
-  width: 40%;
-  margin-left: 24px;
-  margin-top: 32px;
+  text-align: center;
+  display: block;
+  }
+
+
+/* Mobile */
+
+@media only screen and (min-width: 360px) and (max-width: 412px){
+
+  html{
+    height: auto;
+  }
+
+  .container{
+    margin-top: 170px;
+  }
+
+  .logo{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 75%;
+    margin-top: 24px;
+  }
+
+  nav{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 1fr 1fr;
+    nav height: 40px;
+  }
+
+  nav ul{
+    width: 80%;
+    margin-left: 18px;
+  }
+
+  nav ul li {
+    margin-right: 28px;
+    text-align: center;
+  }
+
+    section.bio-image{
+      height: 250px;
+      display: block;
+      margin-bottom: 42px;
+      margin-bottom: 32px;
+      width: 70%;
+      margin-right: auto;
+      margin-left: auto;
+      background-repeat: no-repeat;
+      background-image: url(../assets/images/mobile-bio-image.png);
+    }
+
+    section.bio-header p{
+      font-size: 42px;
+      width: 75%;
+      margin-right: auto;
+      margin-left: auto;
+      display: block;
+    }
+
+    section.second-header p{
+      font-size: 42px;
+      width: 75%;
+      margin-right: auto;
+      margin-left: auto;
+      display: block;
+    }
+
+    section.bio-text{
+      margin-left: -100px;
+      width: 150%;
+      display: block;
+    }
+
+    section.bio-text h3{
+      width: 41%;
+      line-height: 130%;
+    }
+
+    section.oprah-image{
+      height: 175px;
+      display: block;
+      margin-top: 24px;
+      margin-bottom: 32px;
+      width: 48%;
+      margin-right: auto;
+      margin-left: auto;
+      background-repeat: no-repeat;
+      background-image: url(../assets/images/oprah-image.png);
+    }
+
+  footer ul {
+    width: 42%;
+  }
+
+  footer ul li a{
+    font-size: 28px;
+  }
+
+  footer p{
+    font-size: 14px;
+  }
+}
+
+/* Tablet */
+
+@media only screen and (min-width: 768px) and (max-width: 770px){
+
+  .logo{
+    margin-left: 28px;
+  }
+
+nav ul li{
+  margin-right: 72px;
+}
+  section.bio-image{
+    height: 250px;
+    display: block;
+    margin-top: 150px;
+    margin-bottom: 32px;
+    width: 34%;
+    margin-right: auto;
+    margin-left: auto;
+    background-repeat: no-repeat;
+    background-image: url(../assets/images/mobile-bio-image.png);
+  }
+
+  section.bio-header p{
+    font-size: 42px;
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+  }
+
+  section.second-header p{
+    font-size: 42px;
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+  }
+
+  section.bio-text{
+    margin-left: -50px;
+    width: 115%;
+    display: block;
+  }
+
+  section.bio-text h3{
+    width: 41%;
+    line-height: 130%;
+  }
+
+section.oprah-image{
+    height: 175px;
+    display: block;
+    margin-top: 24px;
+    margin-bottom: 32px;
+    width: 25%;
+    margin-right: auto;
+    margin-left: auto;
+    background-repeat: no-repeat;
+    background-image: url(../assets/images/oprah-image.png);
+  }
+
+  footer ul {
+    width: 22%;
+    padding-top: 4px;
+  }
+
+  footer ul li a{
+    font-size: 36px;
+  }
+
+  footer p{
+    font-size: 14px;
+    text-align: center;
+    padding-top: 4px;
+  }
 }

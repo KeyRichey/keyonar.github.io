@@ -194,6 +194,7 @@ section.Problem h2{
 }
 
 section.Solution h2 {
+  font-family: 'SF Pro Display', sans-serif;
   border-style: none none solid none;
   border-color: #FFAE31;
   color:#201313;
@@ -361,6 +362,8 @@ section.survey-text ul li{
 section.pain-points p{
   margin-left: auto;
   margin-right: auto;
+  list-style: none;
+  text-decoration: none;
 }
 
 section.pain-points ul li{
@@ -369,6 +372,7 @@ section.pain-points ul li{
   border-left: 4px solid #EB177B;
   padding-left: 10px;
   list-style: none;
+  text-decoration: none;
 }
 
 section.Survey button{
@@ -1039,6 +1043,15 @@ section.ab-text h4{
   width: 100%;
 }
 
+.ab-image2 img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  width: 100%;
+}
+
 /* Final MVP */
 
 section.Final-MVP{
@@ -1143,31 +1156,39 @@ section.Conclusion-text p{
   margin-bottom: 14px;
 }
 
-/* Footer */
-
 footer{
-  height: 80px;
-  background-color:lavender;
+  height: 110px;
+  background-color: lavender;
+  align-items: center;
 }
 
 footer ul{
-  display: inline-flex;
-  margin-left: 550px;
+  width: 14%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 footer ul li{
-  list-style: none;
-  margin-right: 24px;
-  margin-top: 24px;
-}
-
-footer ul li a{
   color: indigo;
-  width: 10%;
+  display: inline-block;
+  margin-left: 16px;
+  margin-top: 24px;
   text-decoration: none;
   list-style: none;
   letter-spacing: 3px;
   font-size: 32px;
+}
+
+footer ul li a{
+  color: indigo;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+  list-style: none;
+  letter-spacing: 3px;
+  font-size: 36px;
 }
 
 footer ul li a:hover{
@@ -1177,11 +1198,747 @@ footer ul li a:hover{
 
 footer p{
   color: indigo;
-  font-family:'SF Pro Display',sans-serif;
-  font-size: 14px;
-  float: left;
-  margin-left: 24px;
-  margin-top: 32px;
+  font-family:'SF Pro Display', sans-serif;
+  font-size: 16px;
+  margin-top: 16px;
+  padding-bottom: 21px;
   text-decoration: none;
-  width: 40%;
+  text-align: center;
+  display: block;
+}
+
+/* Mobile */
+
+@media only screen and (min-width: 360px) and (max-width: 414px){
+
+  html{
+    height: auto;
+  }
+
+  .logo{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 80%;
+    margin-top: 24px;
+  }
+
+  /* Mobile Navigation */
+
+  nav{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 1fr 1fr;
+    nav height: 40px;
+  }
+
+  nav ul{
+    width: 60%;
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+
+  nav ul li {
+    margin-right: 28px;
+    text-align: center;
+  }
+
+  .container{
+    margin-top: 140px;
+  }
+
+  section.hero p{
+    width: 85%;
+  }
+
+  section.hero img{
+    width: 95%;
+    height:250px;
+  }
+
+  section.details{
+    padding-top: 14px;
+    margin-bottom: 14px;
+    display: grid;
+    grid-template-columns: 400px;
+    grid-template-rows: 200px 300px 200px;
+    text-align: center;
+    height: 720px;
+  }
+
+  section.details ul{
+    margin: 0px 16px 0px 16px;
+  }
+
+  section.details ul li h3{
+    margin-top: 16px;
+  }
+
+  section.details ul li p{
+    font-size: 17px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 55%;
+  }
+
+  /* Mobile Problem/Solution */
+
+  section.Problem {
+    display: block;
+    height: 400px;
+    width: 120%;
+    margin-left: -32px;
+  }
+
+  section.Problem h2 {
+    margin-left: 90px;
+  }
+
+  section.Solution {
+    display: block;
+    height: 375px;
+    width: 120%;
+    margin-left: -32px;
+    float: none;
+  }
+
+  section.Solution h2 {
+    margin-left: 90px;
+  }
+
+  /* Mobile Competitive Analysis */
+
+  section.ca-header{
+    width:60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    line-height: 28px;
+    height: auto;
+    margin-bottom: 14px;
+  }
+
+  section.ca-text{
+    width: 66%;
+  }
+
+  section.assumptions p{
+    width: 66%;
+  }
+
+  section.assumptions ul li p{
+    width: 66%;
+    height: auto;
+    margin-top: 16px;
+    margin-bottom: 32px;
+  }
+
+  /* Mobile Survey */
+
+  section.survey-title p{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    line-height: 120%;
+  }
+
+  section.survey-text{
+    width: 66%;
+  }
+
+  section.survey-text ul li{
+    margin-left: 10px;
+  }
+
+  div.survey-images{
+    width:100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  div.survey-images img{
+    display: block;
+  }
+
+  div.Survey-image2{
+    margin-top: 42px;
+    margin-bottom: 42px;
+    margin-left: -12px;
+  }
+
+  div.Survey-image1{
+    margin-left: 6px;
+  }
+
+
+  div.Survey-image3{
+    margin-left: 10px;
+  }
+
+  section.pain-points ul li{
+    margin-left: 2px;
+    height: auto;
+  }
+
+  /* Mobile User Personas */
+
+  section.persona-text{
+    width: 66%;
+  }
+
+  section.persona-title p{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    line-height: 120%;
+  }
+
+  .persona-text ul li{
+    margin-left: 14px;
+  }
+
+  section.Sage-Persona img{
+    height: 60%;
+    width: 70%;
+  }
+
+  section.Sage-Persona{
+    width: 90%;
+    height: auto;
+  }
+
+  section.Jesse-Persona img{
+    height: 60%;
+    width: 70%;
+  }
+
+  section.Jesse-Persona{
+    width: 90%;
+    height: auto;
+  }
+
+  /* Mobile User Stories */
+
+  section.Stories-text{
+    width: 66%;
+  }
+
+  section.us-header p{
+    width:60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    line-height: 120%;
+  }
+
+  section.User-Stories img{
+    width: 90%;
+    height: 350px;
+  }
+
+  /* Mobile User Flows */
+
+  section.flow-header p{
+    width:60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    line-height: 120%;
+  }
+
+  section.uf-text{
+    width: 66%;
+  }
+
+  section.User-Flows img{
+    width: 90%;
+    height: 400px;
+  }
+
+  /* Mobile Wireframes */
+
+  section.Wireframe-header p{
+    width:60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    line-height: 120%;
+  }
+
+  section.text-w p{
+    width: 66%;
+  }
+
+  section.ref-text p{
+    width: 66%;
+    margin-top: 14px;
+  }
+
+  section.ref-text ul{
+    margin-top: 64px;
+  }
+
+  section.ref-text ul li p{
+    width: 66%;
+    height: auto;
+    margin-top: 14px;
+  }
+
+  section.w-images {
+    display: block;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  section.w-images img {
+    width: 100%;
+  }
+
+  section.Low-fidelity{
+    width: 100%;
+    padding-top: 12px;
+  }
+
+  section.Low-fidelity p{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 66%;
+  }
+
+  section.Low-fidelity {
+    display: block;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:
+  }
+
+  section.Low-fidelity img {
+    width: 100%;
+  }
+
+  /* Mobile Usability */
+
+  section.Usability img{
+    width: 40%;
+    height: 200px;
+    margin-left: 150px;
+    display: block;
+  }
+
+  section.usability-title p{
+    width:60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    line-height: 120%;
+  }
+
+  section.usability-text{
+    width: 66%;
+  }
+
+  section.usability-text ul li{
+    margin-left: 14px;
+  }
+
+  /* Mobile Visual */
+
+  section.visual-title p{
+    width:60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    line-height: 120%;
+  }
+
+  section.visual-text{
+    width: 66%;
+  }
+
+  section.visual-text p{
+    padding-top: 24px;
+  }
+
+  div.Image1{
+    width: 170%;
+    height: 240px;
+    margin-left: -86px;
+    display: block;
+    margin-bottom: 14px;
+  }
+
+  div.Image2{
+    width: 170%;
+    height: 240px;
+    margin-left: -86px;
+    display: block;
+    margin-bottom: 54px;
+  }
+
+  div.Image3{
+    width: 170%;
+    height: 240px;
+    margin-left: -86px;
+    display: block;
+  }
+
+
+  /* Mobile Mockups */
+
+  section.mockup-title p{
+    width:60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    line-height: 120%;
+  }
+
+  section.mockup-text{
+    width: 66%;
+  }
+
+  section.Mockup-images{
+    width: 66%;
+  }
+
+  section.Upload-Images {
+    width: 100%;
+    display: block;
+  }
+  section.Upload-Images img{
+    margin-left: -34px;
+    margin-top: 42px;
+    display: block;
+    width: 90%;
+  }
+
+  /* Mobile A/B Testing */
+
+  section.ab-title p{
+    width:60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    line-height: 120%;
+  }
+
+  section.ab-text{
+    width: 66%;
+  }
+
+  section.ab-text ul li{
+    margin-left: 14px;
+  }
+
+  .ab-image img{
+    display: block;
+    width: 130%;
+    height: 125px;
+    margin-left: -36px;
+  }
+
+  /* Mobile Final MVP */
+
+  section.final-title p{
+    width:60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    line-height: 120%;
+  }
+
+  section.final-text{
+    width: 66%;
+  }
+
+
+  section.Final-MVP img{
+    width: 100%;
+    height: auto;
+  }
+
+  /* Mobile Conclusion */
+
+  section.Conclusion-title p{
+    width:60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    line-height: 120%;
+  }
+
+  section.Conclusion-text{
+    width: 66%;
+  }
+
+  /* Mobile Footer */
+  footer ul {
+    width: 40%;
+  }
+
+  footer ul li a{
+    font-size: 28px;
+  }
+
+  footer p{
+    font-size: 14px;
+  }
+}
+
+/* Tablet */
+
+@media only screen and (min-width: 768px) and (max-width: 770px){
+
+  .container{
+    margin-top: 120px;
+    width: 768px;
+  }
+
+  /* Tablet Navigation */
+
+  nav{
+    width: 768px;
+  }
+  nav ul{
+    margin-top: 24px;
+    width: 50%;
+  }
+
+  nav ul li {
+    margin-right: 28px;
+    text-align: center;
+  }
+
+  /* Tablet Hero Section */
+
+  .hero{
+    background-color: #0226AD;
+    height: auto;
+    width: 768px;
+  }
+
+  .hero img{
+    height: 350px;
+  }
+
+  /* Tablet Problem/Solution */
+
+  section.Problem h2 {
+    margin-left: 76px;
+  }
+
+  section.Solution h2 {
+    margin-left: 76px;
+  }
+
+  section.Process-header{
+    margin-top: 54px;
+  }
+
+  /* Tablet Details */
+
+  section.details{
+    padding-top: 14px;
+    margin-bottom: 14px;
+    display: grid;
+    grid-template-columns: 400px;
+    grid-template-rows: 200px 300px 200px;
+    text-align: center;
+    height: 720px;
+  }
+
+  section.details ul{
+    margin: 0px 16px 0px 16px;
+  }
+
+  section.details ul li h3{
+    margin-top: 16px;
+  }
+
+  section.details ul li p{
+    font-size: 17px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 55%;
+  }
+
+  /* Tablet Competitive Analysis */
+
+  section.assumptions ul li p{
+    height: auto;
+    margin-top: 12px;
+  }
+
+  /* Tablet Survey */
+
+div.survey-images{
+  display: block;
+  margin-bottom: 42px;
+  margin-left: 70px;
+  margin-top: 42px;
+  width: 100%;
+}
+
+div.Survey-image2{
+  margin-left: -24px;
+}
+
+  section.pain-points ul li{
+    margin-left: 2px;
+    height: auto;
+  }
+
+  /* Tablet User Personas */
+
+  section.Sage-Persona{
+    width: 70%;
+    height: auto;
+  }
+
+  section.Sage-Persona img{
+    height: 200px;
+    width: 200px;
+  }
+
+  section.Jesse-Persona{
+    width: 70%;
+    height: auto;
+  }
+
+  section.Jesse-Persona img{
+    height: 200px;
+    width: 200px;
+  }
+
+  /* Tablet Wireframes */
+
+  section.w-images {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  section.w-images img {
+    width: 100%;
+  }
+
+  section.Upload-Images {
+    width: 100%;
+    display: block;
+  }
+  section.Upload-Images img{
+    margin-left: -34px;
+    margin-top: 42px;
+    display: block;
+    width: 90%;
+  }
+
+  section.ref-text ul{
+    margin-top: 42px;
+  }
+
+  section.ref-text ul li p{
+    height: auto;
+    margin-top: 24px;
+  }
+
+
+  section.Low-fidelity img{
+    width: 40%;
+    height: 200px;
+  }
+
+  section.Usability img{
+    height: 300px;
+    width: 40%;
+    display: block;
+    margin-left: 250px;
+  }
+
+  /* Tablet Visual */
+
+  div.Image1{
+    width: 140%;
+    height: 200px;
+    margin-left: -86px;
+    display: block;
+    margin-bottom: 110px;
+  }
+
+  div.Image2{
+    width: 140%;
+    height: 200px;
+    margin-left: -86px;
+    display: block;
+    margin-bottom: 150px;
+  }
+
+  div.Image3{
+    width: 120%;
+    height: 240px;
+    margin-left: -28px;
+    display: block;
+  }
+
+  /* Tablet Mockups */
+
+  section.Upload-Images{
+    margin-left: 200px;
+    width: 100%;
+    display: block;
+  }
+
+  section.Upload-Images img{
+    width:60%;
+  }
+
+  /* Tablet A/B Testing */
+
+  .ab-image img{
+    display: block;
+    width: 160%;
+    height: 250px;
+    margin-left: -100px;
+  }
+
+  /* Tablet Final MVP */
+
+  section.Final-MVP img{
+    width: 80%;
+  }
+
+  /* Tablet Footer */
+
+  footer{
+    height: 120px;
+  }
+
+  footer ul {
+    width: 27%;
+    padding-top: 4px;
+  }
+
+  footer ul li a{
+    font-size: 36px;
+    margin-left: 10px;
+  }
+
+  footer p{
+    font-size: 14px;
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 24px;
+  }
 }

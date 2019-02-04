@@ -171,6 +171,7 @@ section.cs-image{
   width: 100%;
   justify-content: center;
   background-repeat: no-repeat;
+  margin-bottom: 32px;
   background-image: url(../assets/images/cs-image.png);
 }
 
@@ -179,16 +180,9 @@ section.cs-image{
   color: indigo;
 }
 
-.cs-image{
-  height: 800px;
-  width:50%;
-  margin-bottom: 42px;
-  background-image: url(../assets/images/hero-image.png)
-}
-
 /* Footer */
 footer{
-  height: 110px;
+  height: 115px;
   background-color: lavender;
   align-items: center;
 }
@@ -455,7 +449,7 @@ footer p{
   /* Tablet Footer */
 
   footer{
-    height: 110px;
+    height: 115px;
   }
 
   footer ul {

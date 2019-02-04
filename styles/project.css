@@ -550,9 +550,9 @@ div{
 section.User-Personas button{
   background-color: #FCFCFC;
   color: #0226AD;
-  font-family: 'SF Pro Display';
+  font-family: 'SF Pro Display' !important;
   font-size: 17px;
-  border-color: #0226AD;
+  border-color: #0226AD !important;
   border-width: thick;
   border-radius: 5px;
   height: 42px;

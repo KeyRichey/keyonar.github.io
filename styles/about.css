@@ -226,11 +226,9 @@ footer p{
     section.bio-image{
       height: 250px;
       display: block;
-      margin-bottom: 42px;
       margin-bottom: 32px;
       width: 70%;
-      margin-right: auto;
-      margin-left: auto;
+      margin-left: 60px;
       background-repeat: no-repeat;
       background-image: url(../assets/images/mobile-bio-image.png);
     }
@@ -238,7 +236,8 @@ footer p{
     section.bio-header p{
       font-size: 42px;
       width: 75%;
-      margin-left: 95px;
+      margin-right: auto;
+      margin-left: auto;
       line-height: 48px;
       display: block;
     }
@@ -277,6 +276,7 @@ footer p{
 
   footer ul {
     width: 42%;
+    margin-left: 124px;
   }
 
   footer ul li a{

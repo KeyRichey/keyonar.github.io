@@ -189,7 +189,7 @@ section.Problem h2{
   border-color: #EB177B;
   color: #201313;
   margin-bottom: 12px;
-  margin-left: 130px;
+  margin-left: 126px;
   margin-top: 42px;
   padding-bottom: 8px;
   width: 100px;
@@ -201,7 +201,7 @@ section.Solution h2 {
   border-color: #FFAE31;
   color:#201313;
   margin-bottom: 12px;
-  margin-left: 130px;
+  margin-left: 126px;
   margin-top: 42px;
   padding-bottom: 8px;
   width: 100px;
@@ -373,6 +373,10 @@ section.pain-points p{
   margin-right: auto;
   list-style: none;
   text-decoration: none;
+}
+
+section.pain-points ul{
+  margin-left: 0px;
 }
 
 section.pain-points ul li{
@@ -788,7 +792,7 @@ section.w-images{
   display: grid;
   grid-template-columns: 425px 425px 425px;
   width: 90%;
-  margin-left: 54px;
+  margin-left: 72px;
 }
 
 div.WImage1{
@@ -1012,7 +1016,7 @@ section.Mockup-images h4{
 section.Upload-Images{
   margin-top: 24px;
   margin-bottom: 32px;
-  margin-left: 110px;
+  margin-left: 120px;
   padding-bottom: 32px;
   width: 80%;
   display: grid;

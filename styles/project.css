@@ -84,8 +84,8 @@ nav ul li a:hover{
 .hero h1{
   color: #FCFCFC;
   display: block;
-  font-size:48px;
-  padding-bottom: 54px;
+  font-size: 54px;
+  padding-bottom: 24px;
   padding-top: 54px;
   width: 100%;
   height: 30px;
@@ -210,7 +210,7 @@ section.Solution h2 {
 section.Problem p{
   font-size: 17px;
   margin-left: 110px;
-  width: 60%;
+  width: 65%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -218,7 +218,7 @@ section.Problem p{
 section.Solution p{
   font-size: 17px;
   margin-left: 110px;
-  width: 60%;
+  width: 65%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -331,9 +331,12 @@ div.survey-images{
   display: grid;
   grid-template-columns: 275px 275px 275px;
   margin-bottom: 42px;
-  margin-left: -96px;
-  margin-top: 42px;
+  margin-left: -36px;
   width: 100%;
+}
+
+div.Survey-image2{
+  margin-left: -14px;
 }
 
 div.survey-images img{
@@ -351,6 +354,10 @@ section.survey-text{
   padding-bottom: 24px;
   border-top: thin solid #EBE8DF;
   padding-top: 24px;
+}
+
+section.survey-text ul{
+  margin-left: 20px;
 }
 
 section.survey-text p{
@@ -438,6 +445,10 @@ section.persona-text{
 
 .persona-text p{
   margin-top: 12px;
+}
+
+section.persona-text ul{
+  margin-left: 20px;
 }
 
 section.persona-text ul li{
@@ -776,7 +787,29 @@ section.w-images{
   background-color: #0226AD;
   display: grid;
   grid-template-columns: 425px 425px 425px;
-  width: 100%;
+  width: 90%;
+  margin-left: 54px;
+}
+
+div.WImage1{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 90%;
+}
+
+div.WImage2{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 90%;
+}
+
+div.WImage3{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 90%;
 }
 
 section.Low-fidelity{
@@ -837,6 +870,11 @@ section.usability-text{
 section.usability-text p{
   margin-bottom: 14px;
 }
+
+section.usability-text ul{
+  margin-left: 20px;
+}
+
 section.usability-text ul li{
   margin-bottom: 14px;
 }
@@ -974,7 +1012,7 @@ section.Mockup-images h4{
 section.Upload-Images{
   margin-top: 24px;
   margin-bottom: 32px;
-  margin-left: 50px;
+  margin-left: 110px;
   padding-bottom: 32px;
   width: 80%;
   display: grid;
@@ -983,6 +1021,9 @@ section.Upload-Images{
 
 section.Upload-Images img{
   width:90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* A/B Testing */

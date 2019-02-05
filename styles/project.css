@@ -1252,8 +1252,7 @@ footer p{
   }
 
   .logo{
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 54px;
     display: block;
     width: 80%;
     margin-top: 24px;
@@ -1270,9 +1269,8 @@ footer p{
   }
 
   nav ul{
-    width: 60%;
-    margin-left: 32px;
-    margin-right: 32px;
+    width: 40%;
+    margin-left: 48px;
   }
 
   nav ul li {
@@ -1283,6 +1281,10 @@ footer p{
   .container{
     margin-top: 140px;
   }
+
+section.hero h1{
+  font-size: 42px;
+}
 
   section.hero p{
     width: 85%;
@@ -1330,7 +1332,7 @@ footer p{
   }
 
   section.Problem h2 {
-    margin-left: 90px;
+    margin-left: 80px;
   }
 
   section.Solution {
@@ -1342,7 +1344,7 @@ footer p{
   }
 
   section.Solution h2 {
-    margin-left: 90px;
+    margin-left: 80px;
   }
 
   /* Mobile Competitive Analysis */
@@ -1352,7 +1354,7 @@ footer p{
     margin-left: auto;
     margin-right: auto;
     display: block;
-    line-height: 28px;
+    line-height: 32px;
     height: auto;
     margin-bottom: 14px;
   }
@@ -1649,12 +1651,12 @@ footer p{
   section.Upload-Images {
     width: 100%;
     display: block;
+    margin-bottom:32px;
   }
   section.Upload-Images img{
-    margin-left: -34px;
-    margin-top: 42px;
+    margin-top: 24px;
     display: block;
-    width: 90%;
+    width: 80%;
   }
 
   /* Mobile A/B Testing */

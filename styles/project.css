@@ -626,10 +626,7 @@ section.Stories-text p{
 
 section.User-Stories img{
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 32px;
-  margin-top: 32px;
+  margin-left: 455px;
 }
 
 section.User-Stories button{
@@ -686,11 +683,11 @@ section.uf-text{
 }
 
 section.uf-label p{
-  font-family:'Montserrat';
-  font-size: 14px;
+  font-family:'SF Pro Display';
+  font-size: 17px;
   text-align: center;
   margin-top: 32px;
-  margin-bottom: 4px;
+  margin-bottom: 24px;
 }
 
 section.uf-label img{

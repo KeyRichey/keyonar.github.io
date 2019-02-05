@@ -393,10 +393,9 @@ section.Survey button{
   width: 215px;
 }
 
-
 section.Survey button:hover {
-  background-color: #0226AD;
-  color: #FCFCFC;
+  background-color: #FCFCFC;
+  color: #0226AD;
 }
 
 /* User Personas */
@@ -548,24 +547,24 @@ div{
 }
 
 section.User-Personas button{
-  background-color: #FCFCFC !important;
-  color: #0226AD !important;
-  font-family: 'SF Pro Display' !important;
-  font-size: 17px !important;
-  border-color: #0226AD !important;
-  border-width: thick !important;
-  border-radius: 5px !important;
-  height: 42px !important;
-  width: 200px !important;
-  display: block !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-  margin-bottom: 32px !important;
+  color: #FCFCFC;
+  background-color: #0226AD;
+  border: none;
+  border-radius: 5px;
+  font-family:'SF Pro Display';
+  font-size: 17px;
+  height: 54px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 32px;
+  margin-top: 32px;
+  width: 215px;
 }
 
 section.User-Personas button:hover {
-  background-color: #0226AD;
-  color: #FCFCFC;
+  background-color: #FCFCFC;
+  color: #0226AD;
 }
 
 /* User Stories */
@@ -619,24 +618,24 @@ section.User-Stories img{
 }
 
 section.User-Stories button{
-  background-color: #FCFCFC;
-  color: #0226AD;
-  font-family: 'SF Pro Display';
-  font-size: 17px;
-  border-color: #0226AD;
-  border-width: thick;
+  color: #FCFCFC;
+  background-color: #0226AD;
+  border: none;
   border-radius: 5px;
-  height: 42px;
-  width: 200px;
+  font-family:'SF Pro Display';
+  font-size: 17px;
+  height: 54px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 32px;
+  margin-top: 32px;
+  width: 215px;
 }
 
 section.User-Stories button:hover {
-  background-color: #0226AD;
-  color: white;
+  background-color: #FCFCFC;
+  color: #0226AD;
 }
 
 /* User Flows */
@@ -689,25 +688,24 @@ section.uf-label img{
 }
 
 section.User-Flows button{
-  background-color: #FCFCFC;
-  color: #0226AD;
-  font-family: 'SF Pro Display';
-  font-size: 17px;
-  border-color: #0226AD;
-  border-width: thick;
+  color: #FCFCFC;
+  background-color: #0226AD;
+  border: none;
   border-radius: 5px;
-  height: 42px;
-  width: 200px;
+  font-family:'SF Pro Display';
+  font-size: 17px;
+  height: 54px;
   display: block;
-  margin-top: 32px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 32px;
+  margin-top: 32px;
+  width: 215px;
 }
 
 section.User-Flows button:hover {
-  background-color: #0226AD;
-  color: white;
+  background-color: #FCFCFC;
+  color: #0226AD;
 }
 
 section.Reflection{
@@ -903,25 +901,24 @@ section.visual-text img{
 }
 
 section.Visual button{
-  background-color: #FCFCFC;
-  color: #0226AD;
-  font-family: 'SF Pro Display';
-  font-size: 17px;
-  border-color: #0226AD;
-  border-width: thick;
+  color: #FCFCFC;
+  background-color: #0226AD;
+  border: none;
   border-radius: 5px;
-  height: 42px;
-  width: 200px;
+  font-family:'SF Pro Display';
+  font-size: 17px;
+  height: 54px;
   display: block;
-  margin-top: 32px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 32px;
+  margin-top: 32px;
+  width: 215px;
 }
 
 section.Visual button:hover {
-  background-color: #0226AD;
-  color: white;
+  background-color: #FCFCFC;
+  color: #0226AD;
 }
 
 /* Mockups */

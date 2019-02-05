@@ -378,21 +378,21 @@ section.pain-points ul li{
 }
 
 section.Survey button{
-  background-color: #FCFCFC;
-  color: #0226AD;
-  font-family: 'SF Pro Display';
-  font-size: 17px;
-  border-color: #0226AD;
-  border-width: thick;
+  color: #FCFCFC;
+  background-color: #0226AD;
+  border: none;
   border-radius: 5px;
-  height: 42px;
-  width: 200px;
+  font-family:'SF Pro Display';
+  font-size: 17px;
+  height: 54px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 32px;
   margin-bottom: 32px;
+  margin-top: 32px;
+  width: 215px;
 }
+
 
 section.Survey button:hover {
   background-color: #0226AD;

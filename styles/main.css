@@ -264,7 +264,7 @@ footer p{
 
   nav ul{
     width: 70%;
-    margin-left: 48px;
+    margin-left: 64px;
   }
 
   nav ul li {
@@ -290,7 +290,7 @@ footer p{
   .text h3{
     font-size: 36px;
     width:100%;
-    margin-top: -12px;
+    margin-left: 42px;
   }
 
   .text p{
@@ -305,11 +305,11 @@ footer p{
     grid-template-rows: 1fr;
   }
 
-  .HappyNomad h1{
+  div.HappyNomad h1{
     text-align: center;
     font-size: 42px;
     margin-top: 24px;
-    width: 75%;
+    width: 80%;
     display: block;
     margin-left: 42px
     margin-bottom: 12px;

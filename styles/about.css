@@ -88,6 +88,7 @@ section.bio-header p{
   font-family:'Shrikhand', sans-serif;
   margin-left: 24%;
   font-size: 54px;
+  line-height: 64px;
 }
 
 section.second-header p{
@@ -97,6 +98,7 @@ section.second-header p{
   font-family:'Shrikhand', sans-serif;
   margin-left: 25%;
   font-size: 54px;
+  line-height: 64px;
 }
 
 section.bio-text h3{

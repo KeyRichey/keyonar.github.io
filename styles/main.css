@@ -134,6 +134,10 @@ section.header{
   color: #201313;
 }
 
+.cs-text{
+  margin-bottom: 72px;
+}
+
 .HappyNomad h1{
   font-family: 'SF Pro Display',sans-serif;
   color: #060809;
@@ -182,7 +186,7 @@ section.cs-image{
 
 /* Footer */
 footer{
-  height: 115px;
+  height: 125px;
   background-color: lavender;
   align-items: center;
 }

@@ -263,9 +263,8 @@ footer p{
   }
 
   nav ul{
-    width: 80%;
-    margin-left: 32px;
-    margin-right: 32px;
+    width: 70%;
+    margin-left: 48px;
   }
 
   nav ul li {
@@ -306,17 +305,20 @@ footer p{
     grid-template-rows: 1fr;
   }
 
-  .cs-text h1{
+  .HappyNomad h1{
     text-align: center;
     font-size: 42px;
     margin-top: 24px;
-    width: 70%;
+    width: 75%;
     display: block;
+    margin-left: 42px
+    margin-bottom: 12px;
   }
 
   .cs-text p{
     text-align: center;
     margin-top: 14px;
+    margin-bottom:
     width: 66%;
   }
 
@@ -330,9 +332,8 @@ footer p{
     height: 200px;
     display: block;
     margin-top: 24px;
-    margin-left: 10px;
     width: 90%;
-    float: right;
+    float: none;
     justify-content: center;
     background-repeat: no-repeat;
     background-image: url(../assets/images/Mobile-Case-Study-IMG.png);
@@ -342,6 +343,7 @@ footer p{
 
   footer ul {
     width: 40%;
+    margin-left: 115px;
   }
 
   footer ul li a{
@@ -388,19 +390,19 @@ footer p{
   .text h2{
     font-size: 64px;
     padding-top: 32px;
-    margin-left: 64px;
+    margin-left: 14px;
   }
 
   .text h3{
     font-size: 48px;
     width:100%;
     margin-top: -4px;
-    margin-left: 64px;
+    margin-left: 14px;
   }
 
   .text p{
     font-size: 32px;
-    margin-left: 64px;
+    margin-left: 14px;
   }
 
   /* Tablet Case Study */

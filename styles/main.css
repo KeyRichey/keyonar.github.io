@@ -267,15 +267,14 @@ footer p{
   }
 
   nav ul{
-    width: 80%;
-    margin-left: 46px;
+    width: 70%;
+    margin-left: 64px;
   }
 
   nav ul li {
-    margin-right: 28px;
     text-align: center;
   }
-
+  
   /* Mobile Hero */
 
   .hero{
@@ -331,15 +330,17 @@ footer p{
   }
 
   .cs-button{
-    margin-left: 62px;
+    margin-left: 84px;
     font-size: 17px;
   }
 
   section.cs-image{
-    height: 200px;
+    height: 320px;
     display: block;
-    margin-top: 24px;
-    width: 90%;
+    margin-top: -54px;
+    margin-bottom: -32px;
+    margin-left: 22px;
+    width: 100%;
     float: none;
     justify-content: center;
     background-repeat: no-repeat;

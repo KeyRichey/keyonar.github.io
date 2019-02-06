@@ -107,7 +107,7 @@ nav ul li a:hover{
   background-color: #EB177B;
   border: none;
   border-radius: 5px;
-  font-family:'SF Pro Display';
+  font-family: 'SF Pro Display',sans-serif;
   font-size: 17px;
   height: 54px;
   display: block;
@@ -124,13 +124,15 @@ nav ul li a:hover{
   color: #EB177B;
 }
 
-.hero img{
+section.hero-image{
   height: 500px;
   width: 90%;
   display: block;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 32px;
+  background-image: url(../assets/images/CS-Hero-Image.png);
+  background-repeat: no-repeat;
 }
 
 /* Details/Roles Info */
@@ -149,7 +151,7 @@ section.details ul{
 }
 
 section.details ul li h3{
-  font-family: 'SF Pro Display';
+  font-family: 'SF Pro Display', sans-serif;
   font-size: 24px;
   color: #0226AD;
   text-decoration: underline;
@@ -393,7 +395,7 @@ section.Survey button{
   background-color: #0226AD;
   border: none;
   border-radius: 5px;
-  font-family:'SF Pro Display';
+  font-family: 'SF Pro Display',sans-serif;
   font-size: 17px;
   height: 54px;
   display: block;
@@ -566,7 +568,7 @@ section.User-Personas button{
   background-color: #0226AD;
   border: none;
   border-radius: 5px;
-  font-family:'SF Pro Display';
+  font-family: 'SF Pro Display',sans-serif;
   font-size: 17px;
   height: 54px;
   display: block;
@@ -634,7 +636,7 @@ section.User-Stories button{
   background-color: #0226AD;
   border: none;
   border-radius: 5px;
-  font-family:'SF Pro Display';
+  font-family: 'SF Pro Display',sans-serif;
   font-size: 17px;
   height: 54px;
   display: block;
@@ -683,7 +685,7 @@ section.uf-text{
 }
 
 section.uf-label p{
-  font-family:'SF Pro Display';
+  font-family: 'SF Pro Display',sans-serif;
   font-size: 17px;
   text-align: center;
   margin-top: 32px;
@@ -704,7 +706,7 @@ section.User-Flows button{
   background-color: #0226AD;
   border: none;
   border-radius: 5px;
-  font-family:'SF Pro Display';
+  font-family: 'SF Pro Display',sans-serif;
   font-size: 17px;
   height: 54px;
   display: block;
@@ -944,7 +946,7 @@ section.Visual button{
   background-color: #0226AD;
   border: none;
   border-radius: 5px;
-  font-family:'SF Pro Display';
+  font-family: 'SF Pro Display',sans-serif;
   font-size: 17px;
   height: 54px;
   display: block;
@@ -1139,7 +1141,7 @@ section.Final-MVP button{
   background-color: #EB177B;
   border: none;
   border-radius: 5px;
-  font-family:'SF Pro Display';
+  font-family: 'SF Pro Display',sans-serif;
   font-size: 17px;
   height: 54px;
   display: block;
@@ -1269,12 +1271,11 @@ footer p{
   }
 
   nav ul{
-    width: 40%;
-    margin-left: 48px;
+    width: 70%;
+    margin-left: 64px;
   }
 
   nav ul li {
-    margin-right: 28px;
     text-align: center;
   }
 
@@ -1290,9 +1291,11 @@ section.hero h1{
     width: 85%;
   }
 
-  section.hero img{
+  section.hero-image{
+    height: 320px;
     width: 95%;
-    height:250px;
+    background-image: url(../assets/images/Mobile-Case-Study-IMG.png);
+    background-repeat: no-repeat;
   }
 
   section.details{
@@ -1652,6 +1655,8 @@ section.hero h1{
     width: 100%;
     display: block;
     margin-bottom:32px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
   section.Upload-Images img{
     margin-top: 24px;

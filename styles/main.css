@@ -254,7 +254,7 @@ footer p{
     margin-left: auto;
     margin-right: auto;
     display: block;
-    width: 70%;
+    width: 75%;
     margin-top: 24px;
   }
 
@@ -268,7 +268,7 @@ footer p{
 
   nav ul{
     width: 80%;
-    margin-left: 64px;
+    margin-left: 46px;
   }
 
   nav ul li {
@@ -302,6 +302,10 @@ footer p{
     margin-left: 16px;
   }
 
+.header h3{
+  margin-left: 56px;
+}
+
 /* Mobile Case Study */
 
   .HappyNomad{
@@ -316,18 +320,18 @@ footer p{
     margin-top: 24px;
     width: 80%;
     display: block;
-    margin-left: 32px
+    margin-left: 36px
   }
 
   .cs-text p{
     text-align: center;
     margin-top: 14px;
     width: 66%;
+    margin-left: 68px;
   }
 
   .cs-button{
-    justify-content: center;
-    width: 65%;
+    margin-left: 62px;
     font-size: 17px;
   }
 

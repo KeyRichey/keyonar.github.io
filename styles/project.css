@@ -125,7 +125,7 @@ nav ul li a:hover{
 }
 
 section.hero-image{
-  height: 500px;
+  height: 550px;
   width: 90%;
   display: block;
   margin-left: auto;
@@ -1273,7 +1273,7 @@ footer p{
   nav ul{
     width: 70%;
     margin-left: 64px;
-    margin-top:-12px;
+    margin-top: -12px;
   }
 
   nav ul li {
@@ -1284,17 +1284,17 @@ footer p{
     margin-top: 140px;
   }
 
-section.hero h1{
-  font-size: 42px;
-}
+  section.hero h1{
+    font-size: 42px;
+  }
 
   section.hero p{
     width: 85%;
   }
 
   section.hero-image{
-    height: 320px;
-    width: 95%;
+    height: 290px;
+    margin-left: 25px;
     background-image: url(../assets/images/Mobile-Case-Study-IMG.png);
     background-repeat: no-repeat;
   }
@@ -1826,17 +1826,17 @@ section.hero h1{
 
   /* Tablet Survey */
 
-div.survey-images{
-  display: block;
-  margin-bottom: 42px;
-  margin-left: 70px;
-  margin-top: 42px;
-  width: 100%;
-}
+  div.survey-images{
+    display: block;
+    margin-bottom: 42px;
+    margin-left: 70px;
+    margin-top: 42px;
+    width: 100%;
+  }
 
-div.Survey-image2{
-  margin-left: -24px;
-}
+  div.Survey-image2{
+    margin-left: -24px;
+  }
 
   section.pain-points ul li{
     margin-left: 2px;

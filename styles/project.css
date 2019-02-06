@@ -1273,6 +1273,7 @@ footer p{
   nav ul{
     width: 70%;
     margin-left: 64px;
+    margin-top:-12px;
   }
 
   nav ul li {

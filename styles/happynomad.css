@@ -626,9 +626,13 @@ section.Stories-text p{
   margin-top: 24px;
 }
 
-section.User-Stories img{
+section.User-Stories-Image{
   display: block;
-  margin-left: 455px;
+  margin-left: 350px;
+  width: 600px;
+  height: 400px;
+  background-image: url(../assets/images/User-Stories.png);
+  background-repeat: no-repeat;
 }
 
 section.User-Stories button{
@@ -1479,9 +1483,13 @@ footer p{
     line-height: 120%;
   }
 
-  section.User-Stories img{
+  section.User-Stories-Image{
+    margin-left: 64px;
+    margin-bottom: 14px;
     width: 90%;
-    height: 350px;
+    height: 530;
+    background-image: url(../assets/images/Mobile-US.png);
+    background-repeat: no-repeat;
   }
 
   /* Mobile User Flows */
